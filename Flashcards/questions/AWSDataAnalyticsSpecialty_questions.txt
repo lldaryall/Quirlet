@@ -1,0 +1,54 @@
+Retrieve subset of object data via SQL.::Data Pipeline::DataSync::Kinesis Data Analytics::S3 Select::D
+Offline data transfer and edge compute.::Snowball Edge::EMR Serverless::Step Functions ETL Orchestration::EMR::A
+Orchestrate data movement and transformation (legacy).::RDS Snapshot Export to S3::Glue ETL::Data Pipeline::ORC::C
+Immutable table format for data lake analytics.::EMR Notebook::Materialized View::Iceberg Table Format::Glue Schema Registry::C
+Run Spark on existing Kubernetes.::EMR Notebook::EMR on EKS::Glue Crawler::Compression Codecs::B
+Ask questions in natural language to build visuals.::Athena::Athena Partition Projection::QuickSight Q::Data Lifecycle::C
+Track analytics workload spend.::MSK Connect::Cost Allocation Tags::Athena Partition Projection::Glue ETL::B
+Serverless BI dashboards and ML insights.::ORC::QuickSight::Data Governance::Elastic Views (Preview)::B
+Athena cache to reduce costs.::S3 Select::Materialized View::Query Result Caching::Fine‑grained Access::C
+Coordinate Glue jobs, EMR, Lambda.::Glue Crawler::Step Functions ETL Orchestration::EMRFS Consistent View::Managed Streaming for Kafka::B
+Crawl data stores to populate Data Catalog.::Glue Crawler::Snowball Edge::Glue Partition Index::Lake Formation::A
+Optimized Row Columnar format.::Glue Studio::Fine‑grained Access::Glue Schema Registry::ORC::D
+Query data sources via Lambda connectors.::Elastic Views (Preview)::Redshift Spectrum::Athena Federated Query::Sagemaker Feature Store::C
+Search, log analytics, observability.::OpenSearch Service::Query Result Caching::Kinesis Data Analytics::Glue Partition Index::A
+Move relational data to analytics store.::RDS Snapshot Export to S3::DMS Full Load & CDC::EMR Serverless::Fine‑grained Access::B
+Manage streaming data schemas.::EventBridge Pipes::Compression Codecs::Glue Schema Registry::Athena::C
+Column‑level security in Lake Formation.::Query Result Caching::Fine‑grained Access::Iceberg Table Format::Elastic Views (Preview)::B
+Fast data transfer between on‑prem and AWS.::Glue Schema Registry::S3 Intelligent Tiering::Glue Studio::DataSync::D
+Managed Hadoop/Spark cluster for big data processing.::Redshift Spectrum::MSK Connect::EMR::Streaming ETL::C
+Easy stream processing between Kinesis/SQS and targets.::Kinesis Data Analytics::EventBridge Pipes::EMR on EKS::Glue Crawler::B
+Central registry of ML features.::Redshift::Sagemaker Feature Store::Redshift RA3::Athena Federated Query::B
+Run Kafka Connect connector tasks.::Data Governance::Snowball Edge::MSK Connect::Cost Allocation Tags::C
+Unload data for analytics.::Cost Allocation Tags::RDS Snapshot Export to S3::EMR::Glue Crawler::B
+Capture table changes for analytics.::Kinesis Firehose::Data Governance::DynamoDB Streams::Glue Studio::C
+Query S3 data directly using Redshift.::Athena::Redshift Spectrum::Glue Crawler::Managed Streaming for Kafka::B
+Process streaming data with micro‑batches.::Elastic Views (Preview)::Spark Structured Streaming::Glue ETL::Cost Allocation Tags::B
+No‑code data preparation service.::Data Pipeline::Glue Studio::ORC::Glue DataBrew::D
+Lake Formation permissions, tag‑based access control.::Compression Codecs::Data Governance::Elastic Views (Preview)::Step Functions ETL Orchestration::B
+Speed queries by defining partition scheme.::Spark Structured Streaming::Sagemaker Feature Store::Iceberg Table Format::Athena Partition Projection::D
+Load streaming data to S3, Redshift, OpenSearch.::Materialized View::Glue Schema Registry::Cost Allocation Tags::Kinesis Firehose::D
+Columnar storage format optimized for analytics.::Query Result Caching::RDS Snapshot Export to S3::Athena Partition Projection::Parquet::D
+Visual interface to create ETL workflows.::Glue Studio::Query Result Caching::Redshift Concurrency Scaling::MSK Connect::A
+Separate query environments, enforce limits.::Managed Streaming for Kafka::EMR::Athena Workgroups::ORC::C
+Petabyte‑scale data warehouse.::Redshift::Kinesis Data Analytics::Query Result Caching::Glue ETL::A
+SQL queries on streaming data.::Lake Formation::Glue Schema Registry::Snowball Edge::Kinesis Data Analytics::D
+Kinesis Data Analytics & Glue streaming jobs.::Data Lake::Streaming ETL::Kinesis Data Analytics::EMR on EKS::B
+On‑demand Spark/Hive runtime without cluster management.::QuickSight::EMR Serverless::Glue Crawler::Glue Data Catalog::B
+Ingest, Store, Catalog, Transform, Analyze, Visualize.::Glue Schema Registry::Sagemaker Feature Store::EMR::Data Lifecycle::D
+Materialize DynamoDB streams to views.::DynamoDB Streams::Elastic Views (Preview)::Spark Structured Streaming::Sagemaker Feature Store::B
+Fully managed Apache Kafka.::Managed Streaming for Kafka::DynamoDB Streams::Step Functions ETL Orchestration::Redshift::A
+Serverless SQL queries on S3.::Fine‑grained Access::Athena::Lake Formation::Cost Allocation Tags::B
+S3 consistency layer for EMR.::Athena Workgroups::EMR::EMRFS Consistent View::Compression Codecs::C
+Serverless Spark jobs to transform data.::Data Governance::Athena Federated Query::Glue ETL::EventBridge Pipes::C
+Centralized repository storing structured and unstructured data at any scale.::Data Lake::Kinesis Firehose::EventBridge Pipes::Snowball Edge::A
+Precompute result sets for performance.::Spark Structured Streaming::Data Pipeline::DataSync::Materialized View::D
+Auto move data between storage tiers.::S3 Intelligent Tiering::Spark Structured Streaming::Athena Workgroups::Redshift Spectrum::A
+Automatically adds clusters to handle bursts.::Redshift Concurrency Scaling::Sagemaker Feature Store::EMR Notebook::Athena Workgroups::A
+Managed Jupyter for Spark.::EventBridge Pipes::ORC::Athena::EMR Notebook::D
+Real‑time streaming platform.::Redshift::Athena Workgroups::Managed Streaming for Kafka::Kinesis Data Streams::D
+Set up secure data lake on S3 with governed tables.::Cost Allocation Tags::Materialized View::Lake Formation::DataSync::C
+Snappy, GZIP, Zstandard for analytics files.::EventBridge Pipes::Compression Codecs::Kinesis Data Analytics::Athena Partition Projection::B
+Compute/storage separation with managed storage.::Glue ETL::Redshift RA3::QuickSight Q::Lake Formation::B
+Metadata repository for S3 and other data stores.::Lake Formation::Glue DataBrew::EMR Serverless::Glue Data Catalog::D
+Speed up queries by indexing partitions.::Data Governance::Athena Workgroups::Glue Partition Index::Materialized View::C

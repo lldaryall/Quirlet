@@ -1,0 +1,198 @@
+Cloud Computing::On‑demand delivery of IT resources over the internet with pay‑as‑you‑go pricing.
+AWS Global Infrastructure::Network of Regions, Availability Zones, Local Zones, Wavelength Zones, and Edge Locations that provide global reach and fault isolation.
+Region::A geographic area containing multiple isolated data centers called Availability Zones.
+Availability Zone::One or more discrete data centers with redundant power, networking, and connectivity in an AWS Region.
+Edge Location::Datacenter site used by CloudFront and AWS Global Accelerator to cache content closer to users.
+Local Zone::Extension of an AWS Region that places compute, storage, and database services close to large population or industry centers.
+Wavelength Zone::Infrastructure deployment that brings AWS compute and storage to the edge of 5G networks.
+Shared Responsibility Model::Security model where AWS secures the cloud infrastructure and the customer secures what they put in the cloud (security OF vs. IN the cloud).
+Well‑Architected Framework::Set of best practices across six pillars: Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization, Sustainability.
+Operational Excellence::Pillar focused on operations, monitoring, and continuous improvement.
+Security::Pillar ensuring confidentiality, integrity, and availability of systems and data.
+Reliability::Pillar concerned with recovery, distributed design, and fault tolerance.
+Performance Efficiency::Pillar focused on resource selection and monitoring to maintain performance.
+Cost Optimization::Pillar aimed at delivering business value at the lowest price point.
+Sustainability::Newest pillar promoting environmental sustainability of workloads.
+IAM::Identity and Access Management service that controls user and service access to AWS resources.
+IAM User::Entity with credentials that represents a person or application interacting with AWS.
+IAM Group::Collection of IAM users sharing the same permissions.
+IAM Role::Identity with permission policies that can be assumed by principals for temporary access.
+IAM Policy::JSON document that defines permissions for a principal.
+MFA::Multi‑Factor Authentication that adds a second verification method to sign‑in.
+AWS Organizations::Service that helps centrally manage multiple AWS accounts with consolidated billing and guardrails.
+Service Control Policy::Organization‑level policy that sets permission guardrails across AWS accounts.
+Amazon EC2::Elastic Compute Cloud virtual servers in the cloud.
+EC2 Instance Types::Pre‑configured combinations of CPU, memory, storage, and networking resources.
+EC2 Purchasing Options::On‑Demand, Reserved, Savings Plans, Spot, and Dedicated Hosts/Instances.
+Auto Scaling::Service that automatically adjusts compute capacity to maintain steady, predictable performance.
+Elastic Load Balancing::Service that distributes incoming traffic across targets (instances, containers, IPs).
+ELB Types::Application, Network, Gateway, and Classic (legacy) load balancers.
+AWS Lambda::Serverless compute service that runs code in response to events and automatically manages the compute resources.
+Lambda Pricing::Charged per request and compute duration measured in GB‑seconds.
+Amazon Lightsail::Simplified cloud platform for small workloads with predictable pricing.
+AWS Batch::Managed batch computing service for efficiently running hundreds to thousands of batch jobs.
+AWS Elastic Beanstalk::Platform‑as‑a‑service to deploy and scale web applications automatically.
+Amazon ECS::Elastic Container Service orchestration for Docker containers.
+Amazon EKS::Elastic Kubernetes Service for managed Kubernetes clusters.
+Amazon ECR::Elastic Container Registry for storing, sharing, and deploying container images.
+AWS Fargate::Serverless compute engine for containers that removes need to manage servers.
+Amazon S3::Simple Storage Service object storage with 11 nines durability.
+S3 Storage Classes::Standard, Standard‑IA, One Zone‑IA, Intelligent‑Tiering, Glacier Flexible, Glacier Deep Archive, Express One Zone.
+S3 Lifecycle Policy::Rules to transition or expire objects between storage classes over time.
+S3 Versioning::Keeps multiple variants of an object in the same bucket.
+S3 Encryption::Server‑side (SSE‑S3, SSE‑KMS, SSE‑C) and client‑side encryption options.
+Amazon EBS::Elastic Block Store persistent block storage for EC2.
+EBS Volume Types::gp3, gp2, io2, io1, st1, sc1 volume types for performance and cost needs.
+Amazon EFS::Elastic File System serverless, elastic NFS file storage.
+Amazon FSx::Family of managed file systems (Windows, NetApp ONTAP, Lustre, File Cache).
+AWS Storage Gateway::Hybrid cloud storage service connecting on‑premises environments to AWS storage.
+AWS Backup::Centralized backup service to automate and manage backups across AWS resources.
+Amazon RDS::Relational Database Service that manages database engines in the cloud.
+RDS Engines::MySQL, PostgreSQL, MariaDB, Oracle, SQL Server, and Amazon Aurora.
+Amazon Aurora::High‑performance MySQL‑ and PostgreSQL‑compatible relational database built for the cloud.
+Amazon DynamoDB::Serverless NoSQL key‑value and document database with single‑digit‑millisecond latency.
+DynamoDB Accelerator (DAX)::In‑memory cache for DynamoDB that delivers microsecond read latency.
+Amazon Neptune::Fully managed graph database service for highly connected data.
+Amazon MemoryDB for Redis::Redis‑compatible, durable, in‑memory database service.
+Amazon Redshift::Fully managed cloud data warehouse that scales to petabytes.
+Amazon Athena::Serverless interactive query service that analyzes data directly in Amazon S3 using SQL.
+AWS Glue::Serverless data integration and ETL service that makes data discoverable, preparable, and combinable.
+Amazon Kinesis::Real‑time data streaming services (Data Streams, Firehose, Data Analytics, Video Streams).
+Amazon MSK::Managed streaming service for Apache Kafka clusters.
+Amazon OpenSearch Service::Managed Elasticsearch / OpenSearch clusters for search and analytics.
+Amazon QuickSight::Serverless business intelligence and dashboard service.
+Amazon VPC::Virtual Private Cloud — logically isolated section of AWS with user‑defined network configuration.
+VPC Components::Subnets, route tables, internet gateways, NAT gateways, security groups, and network ACLs.
+Security Group::Stateful virtual firewall that controls inbound and outbound traffic at the instance level.
+Network ACL::Stateless network layer firewall that controls traffic at the subnet level.
+VPC Peering::Private network connection between two VPCs to route traffic using private IP addresses.
+VPC Endpoint::Private connection between a VPC and AWS services without traversing the public internet.
+AWS Direct Connect::Dedicated private network connection from on‑premises to AWS.
+Amazon Route 53::Scalable Domain Name System (DNS), domain registration, and health‑checking service.
+Amazon CloudFront::Global content delivery network (CDN) that caches content at edge locations.
+AWS Global Accelerator::Service that improves performance and availability using the AWS global network and Anycast IPs.
+AWS Transit Gateway::Hub‑and‑spoke service to interconnect VPCs and on‑premises networks at scale.
+AWS Shield::Managed DDoS protection service (Standard automatically included, Advanced subscription).
+AWS WAF::Web Application Firewall that protects against common web exploits.
+AWS Firewall Manager::Central security policy management for AWS WAF, Shield Advanced, and VPC security groups.
+Amazon GuardDuty::Intelligent threat detection service for AWS accounts and workloads.
+Amazon Inspector::Automated security assessment service that scans AWS workloads for vulnerabilities.
+AWS Security Hub::Aggregates, organizes, and prioritizes security alerts and findings across AWS services.
+Amazon Macie::Machine learning service that discovers and protects sensitive data in S3.
+AWS KMS::Key Management Service that creates and controls encryption keys used to encrypt data.
+AWS Secrets Manager::Service for storing, rotating, and auditing secrets such as database credentials and API keys.
+AWS Artifact::Self‑service portal for AWS compliance reports and security documentation.
+AWS CloudTrail::Records AWS API calls and account activity for governance, compliance, and auditing.
+AWS Config::Records and evaluates the configurations of AWS resources for compliance.
+Amazon CloudWatch::Monitoring and observability service providing metrics, logs, alarms, and events.
+CloudWatch Logs::Stores log files from AWS resources and applications.
+CloudWatch Alarms::Triggers notifications or actions based on metric thresholds.
+AWS Trusted Advisor::Provides real‑time recommendations for cost optimization, security, performance, sustainability, and fault tolerance.
+AWS Systems Manager::Unified interface for operational data, automation, and patching across AWS resources.
+AWS Control Tower::Automates landing zone creation with best‑practice multi‑account setup and guardrails.
+AWS Service Catalog::Allows organizations to create and manage catalogs of approved IT services.
+AWS Marketplace::Digital catalog to discover, buy, and deploy third‑party software and services on AWS.
+AWS Cost Explorer::Visualization tool to analyze AWS usage and spending trends over time.
+AWS Budgets::Set custom cost and usage budgets and receive alerts when thresholds are exceeded.
+AWS Cost and Usage Report::Most detailed dataset of AWS resource usage and associated costs.
+AWS Pricing Calculator::Web‑based tool to estimate AWS service costs and forecast monthly spend.
+Savings Plans::Flexible pricing model offering up to 72% savings over On‑Demand rates for EC2, Fargate, and Lambda.
+Reserved Instances::Capacity reservation and discounted pricing for EC2, RDS, Redshift, and ElastiCache.
+Spot Instances::Spare EC2 capacity offered at up to 90% discount compared to On‑Demand.
+Free Tier::Introductory free usage limits for new AWS accounts across many services.
+Basic Support::Free support plan with 24×7 customer service, documentation, and community forums.
+Developer Support::Paid plan with business‑hour access to Cloud Support Associates via email.
+Business Support::24×7 phone, chat, and email support with Trusted Advisor full checks and guidance.
+Enterprise On‑Ramp Support::Enhanced support with a Technical Account Manager (TAM) for smaller enterprises.
+Enterprise Support::Highest tier with dedicated TAM, Concierge, and 15‑minute SLA for critical workloads.
+AWS Support Center::Web portal to manage support plans, open tickets, and view Trusted Advisor reports.
+AWS re:Post::Community‑driven Q&A site for sharing AWS knowledge and getting expert answers.
+AWS Knowledge Center::Library of articles addressing common customer questions and best practices.
+AWS Cloud Adoption Framework::Guidance with six perspectives (Business, People, Governance, Platform, Security, Operations) for planning migrations.
+Migration Strategies (6 R’s)::Rehost, Replatform, Repurchase, Refactor, Retire, Retain options for moving workloads to AWS.
+AWS Snowball::Rugged edge device for offline data transfer (Tens of TB to PB) and edge computing.
+AWS Snowcone::Small, portable, edge device (8 TB usable) for data transfer and edge processing.
+AWS Snowmobile::Exabyte‑scale data transfer service using a 45‑foot shipping container truck.
+AWS DMS::Database Migration Service to migrate databases to AWS easily and securely.
+AWS Application Migration Service::Lift‑and‑shift migration service (MGN) for rehosting servers on AWS.
+AWS CloudFormation::Infrastructure‑as‑code service using JSON/YAML templates for repeatable deployments.
+AWS CDK::Cloud Development Kit that lets you define cloud infrastructure using familiar programming languages.
+Amazon SQS::Fully managed message queuing service decoupling microservices and serverless applications.
+Amazon SNS::Fully managed pub/sub messaging and mobile notifications service.
+Amazon EventBridge::Serverless event bus for integrating AWS services and SaaS applications via events.
+AWS Step Functions::Serverless workflow orchestration with visual state machines.
+AWS Amplify::Set of tools and services to build, ship, and host full‑stack web and mobile apps.
+AWS AppSync::Managed GraphQL service for real‑time data queries and synchronization.
+AWS AppConfig::Feature flag and configuration management service within Systems Manager.
+AWS Cloud9::Cloud‑based integrated development environment accessible via browser.
+AWS CloudShell::Browser‑based shell with AWS CLI pre‑configured for interactive sessions.
+AWS CodeCommit::Fully managed, secure Git‑compatible source control.
+AWS CodeBuild::Continuous integration service that compiles source code, runs tests, and produces artifacts.
+AWS CodeDeploy::Automates code deployments to EC2, Lambda, and on‑prem servers.
+AWS CodePipeline::Continuous delivery service for automated release pipelines.
+AWS X‑Ray::Distributed tracing system for analyzing and debugging applications.
+Amazon SageMaker::Fully managed service to build, train, and deploy machine learning models at scale.
+Amazon Rekognition::Image and video analysis service using deep learning.
+Amazon Lex::Conversational AI service for chatbots and voice assistants.
+Amazon Polly::Text‑to‑speech service that converts text into lifelike speech.
+Amazon Transcribe::Automatic speech recognition (ASR) service to convert speech to text.
+Amazon Comprehend::Natural language processing (NLP) service for text analysis.
+Amazon Textract::Service that automatically extracts text and data from scanned documents.
+Amazon Kendra::Intelligent enterprise search service powered by machine learning.
+EC2 Instance States::Pending, Running, Stopping, Stopped, Shutting‑down, Terminated lifecycle states.
+CloudTrail Lake::Managed data lake that aggregates CloudTrail events for audit and analysis.
+Glue Data Catalog::Central metadata repository for data lakes and analytics.
+VPC Flow Logs::Capture and store information about IP traffic going to and from network interfaces.
+QuickSight Q::Natural language query capability in Amazon QuickSight dashboards.
+AWS Exam Pass Score::Scaled score of 700 out of 1000 is required to pass the Cloud Practitioner exam.
+Scored Questions::The exam has 50 scored and 15 unscored (experimental) questions.
+Exam Content Domains::Cloud Concepts, Security & Compliance, Cloud Technology & Services, Billing & Pricing & Support.
+CAF Perspectives::Business, People, Governance, Platform, Security, Operations viewpoints in the Cloud Adoption Framework.
+IaaS::Infrastructure as a Service: cloud model providing virtualized computing resources over the internet.
+PaaS::Platform as a Service: provides environment for building, testing, deploying software without managing infrastructure.
+SaaS::Software as a Service: software delivery model where applications are hosted by provider and offered over internet.
+Capital Expenditure (CapEx)::Up‑front investment in physical infrastructure and equipment.
+Operational Expenditure (OpEx)::Ongoing costs incurred for running services and operations.
+Scalability::Ability of a system to handle increased load by adding resources.
+Elasticity::Ability to automatically add or remove resources to match demand.
+Agility::Ability to rapidly develop, test, and launch applications to meet business needs.
+High Availability::Design approach that keeps applications running with minimal down‑time.
+Fault Tolerance::Ability of a system to continue operating properly in the event of failure of some components.
+Disaster Recovery::Strategy and processes for restoring service and data after a catastrophic event.
+RTO::Recovery Time Objective: maximum acceptable time to restore service after disruption.
+RPO::Recovery Point Objective: maximum acceptable amount of data loss measured in time.
+Elastic IP::Static, public IPv4 address designed for dynamic cloud computing.
+AWS Backup Vault::Logical container for storing and managing backup copies with encryption and policies.
+CloudFront Origin::The source of the files that CloudFront distributes (e.g., S3 bucket, HTTP server).
+CloudFront Distribution::A collection of edge locations serving specific content via CloudFront.
+EBS Snapshot::Point‑in‑time, incremental copy of an EBS volume stored in S3.
+S3 Intelligent‑Tiering::Storage class that automatically moves objects between access tiers based on usage patterns.
+Rightsizing::Process of matching instance types and sizes to workload requirements to optimize cost.
+Trusted Advisor Checks::Cost Optimization, Performance, Security, Fault Tolerance, Service Limits, Sustainability categories.
+IAM Access Keys::Long‑term credentials (Access Key ID and Secret Access Key) for programmatic access.
+Temporary Security Credentials::Short‑term, automatically expiring credentials generated by AWS STS or roles.
+AWS STS::Security Token Service that issues temporary security credentials for IAM roles or federated users.
+CloudTrail Event::Record of an action taken by a user, role, or service in AWS (API call).
+Security Group Rule::Rule that allows or denies specific traffic based on protocol, port, and source.
+Multi‑AZ Deployment (RDS)::RDS configuration that synchronously replicates data to a standby in another AZ for failover.
+Read Replica::Asynchronous replication targeted at scaling read traffic for RDS databases.
+S3 Bucket Policy::Resource‑based JSON policy attached to an S3 bucket to control access.
+Public Subnet::Subnet routed to an Internet Gateway making its resources reachable from the internet.
+Private Subnet::Subnet without a direct route to the internet; can use NAT Gateway for outbound traffic.
+NAT Gateway::Managed network address translation service that allows private subnets to access the internet.
+VPC CIDR Block::IPv4 address range assigned to a VPC (e.g., 10.0.0.0/16).
+CloudWatch Logs Insights::Interactive query language and service to analyze CloudWatch logs data.
+Config Rule::Evaluation rule that checks AWS resource configurations for compliance.
+KMS CMK::Customer Master Key used in KMS to encrypt and decrypt data.
+SSM Parameter Store::Secure hierarchical storage for configuration data and secrets.
+Parameter Store Tiers::Standard (free, basic limits) and Advanced (paid, higher limits & larger parameters).
+AWS License Manager::Tracks, governs, and reports on software licenses across AWS and on‑premises.
+Personal Health Dashboard::Provides alerts and remediation guidance when AWS events affect your resources.
+Service Health Dashboard::Public webpage that displays the current status of AWS services.
+Cost Allocation Tags::User‑defined or AWS‑generated tags that organize resource costs on detailed billing reports.
+Billing Alerts::CloudWatch alarms that notify when estimated charges exceed thresholds.
+Marketplace AMI::Prebuilt Amazon Machine Image sold or shared through AWS Marketplace.
+Compute Optimizer::Recommends optimal AWS compute resources based on utilization patterns.
+Budgets Alert::Notification triggered when cost or usage exceeds a defined budget threshold.
+Landing Zone Guardrails::Automated preventative and detective controls implemented via SCPs and AWS Config.
+Sustainability Shared Responsibility::AWS manages sustainability of the cloud; customers optimize sustainability of workloads in the cloud.

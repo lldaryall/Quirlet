@@ -1,0 +1,53 @@
+Data labeling service with human‑in‑the‑loop.::SageMaker Ground Truth::SageMaker Model Monitor::Shadow Testing::S3 Data Lake::A
+Manage models on edge devices.::SageMaker Edge Manager::SageMaker Neo::Comprehend::SageMaker Multi‑Model Endpoint::A
+Managed training on dedicated ML instances.::Blue/Green Deployment::SageMaker JumpStart::SageMaker Model Monitor::SageMaker Training Job::D
+Store training data at scale.::SageMaker Inference Endpoint::Redshift ML::S3 Data Lake::Blue/Green Deployment::C
+Managed Jupyter notebooks.::SageMaker Feature Store::Kinesis Data Streams::SageMaker Notebook::Inferentia::C
+Low‑code data preparation inside SageMaker.::SageMaker Edge Manager::Data Wrangler::AWS Batch::Data Leakage::B
+Central repository of ML features.::Blue/Green Deployment::SageMaker Feature Store::SageMaker Multi‑Model Endpoint::Neptune ML::B
+Image and video analysis.::Bedrock::Rekognition::Hyperparameter Tuning::SageMaker Inference Endpoint::B
+Compile models for edge devices.::Spot Training::S3 Data Lake::Lex::SageMaker Neo::D
+Managed recommender system service.::Forecast::ECR::SageMaker Pipelines::Personalize::D
+AutoML service to generate best model.::SageMaker Pipelines::Redshift ML::SageMaker Autopilot::MLOps::C
+OCR and form extraction.::SageMaker Edge Manager::Rekognition::Textract::SageMaker Processing::C
+AWS custom training chip.::Trainium::Textract::SageMaker Neo::Glue::A
+Time‑series forecasting service.::Canary Deployment::SageMaker Ground Truth::MLOps::Forecast::D
+Offline predictions on large datasets.::SageMaker Ground Truth::SageMaker Batch Transform::SageMaker Studio::SageMaker Model Monitor::B
+NLP sentiment and entity analysis.::Comprehend::SageMaker Clarify::SageMaker Ground Truth::Canary Deployment::A
+Route small traffic slice to new model.::SageMaker Ground Truth::Canary Deployment::MLOps::Kinesis Data Streams::B
+Run new model in parallel without affecting production.::SageMaker Pipelines::SageMaker Experiments::SageMaker Training Job::Shadow Testing::D
+Automatically scales to zero for intermittent traffic.::Bedrock::Inferentia::Glue::SageMaker Serverless Inference::D
+Track model versions and approvals.::Textract::Glue::SageMaker Model Registry::SageMaker Notebook::C
+Operationalizing ML workflows.::SageMaker Multi‑Model Endpoint::SageMaker Model Registry::SageMaker Clarify::MLOps::D
+Training on information unavailable during inference.::Inferentia::SageMaker Debugger::SageMaker Studio::Data Leakage::D
+Foundation model API for generative AI.::SageMaker Neo::EMR Spark::SageMaker Experiments::Bedrock::D
+Run containerized training jobs.::SageMaker Debugger::SageMaker JumpStart::SageMaker Inference Endpoint::AWS Batch::D
+Monitor training to detect issues.::Ground Truth Plus::EKS::SageMaker Debugger::Inferentia::C
+Detect bias and explain models.::SageMaker Clarify::Translate::Comprehend::SageMaker Feature Store::A
+Real‑time inference data ingestion.::Kinesis Data Streams::Comprehend::SageMaker Edge Manager::SageMaker Studio::A
+Graph neural networks on Neptune graphs.::Neptune ML::SageMaker Multi‑Model Endpoint::SageMaker Studio::SageMaker Clarify::A
+Distributed data processing job for feature engineering.::SageMaker Feature Store::SageMaker Batch Transform::EMR Spark::Athena::C
+Text‑to‑speech.::Polly::Inferentia::Hyperparameter Tuning::Canary Deployment::A
+Use Spot Instances for SageMaker training.::Spot Training::Bias Mitigation::SageMaker Batch Transform::SageMaker Neo::A
+Track parameters, metrics, and artifacts.::Data Wrangler::Textract::SageMaker Model Registry::SageMaker Experiments::D
+Deploy new model version and switch traffic gradually.::Trainium::SageMaker Batch Transform::SageMaker Clarify::Blue/Green Deployment::D
+Detect data drift in production.::EKS::ECR::EMR Spark::SageMaker Model Monitor::D
+Hosted service to deploy models for real‑time predictions.::SageMaker Inference Endpoint::SageMaker Neo::SageMaker Edge Manager::Polly::A
+Kubernetes cluster for distributed ML.::SageMaker Experiments::SageMaker Neo::SageMaker Autopilot::EKS::D
+Query raw data for exploration.::Rekognition::Inferentia::Athena::Blue/Green Deployment::C
+Pre‑built models and solutions.::MLOps::SageMaker Batch Transform::SageMaker JumpStart::Canary Deployment::C
+Conversational AI.::Redshift ML::SageMaker Studio::Blue/Green Deployment::Lex::D
+ETL service to prepare features.::Glue::SageMaker Debugger::SageMaker Studio::SageMaker Processing::A
+Host multiple models behind single endpoint.::Spot Training::SageMaker Multi‑Model Endpoint::EMR Spark::SageMaker Pipelines::B
+Train ML models with SQL using SageMaker Autopilot.::SageMaker Neo::Shadow Testing::Redshift ML::Data Leakage::C
+Bayesian optimization with SageMaker.::SageMaker Autopilot::Bias Mitigation::Hyperparameter Tuning::Evaluation Metrics::C
+CI/CD service for ML workflows.::Hyperparameter Tuning::Bias Mitigation::SageMaker Feature Store::SageMaker Pipelines::D
+Fully managed labeling service.::Ground Truth Plus::SageMaker Autopilot::Comprehend::Spot Training::A
+Container images for training/inference.::Lex::ECR::Shadow Testing::Glue::B
+Techniques to reduce model bias.::Ground Truth Plus::Bias Mitigation::Glue::SageMaker Ground Truth::B
+Web‑based IDE for ML lifecycle.::SageMaker Studio::Data Leakage::Forecast::SageMaker Multi‑Model Endpoint::A
+Accuracy, Precision, Recall, ROC AUC, RMSE.::Evaluation Metrics::Canary Deployment::Spot Training::Personalize::A
+Run preprocessing or postprocessing code at scale.::SageMaker Serverless Inference::SageMaker Processing::AWS Batch::EC2 P4d::B
+Real‑time language translation.::Textract::Translate::Spot Training::SageMaker Pipelines::B
+GPU instances for deep learning.::EC2 P4d::SageMaker Model Registry::Shadow Testing::SageMaker Multi‑Model Endpoint::A
+AWS custom inference chip.::SageMaker Feature Store::Ground Truth Plus::Inferentia::Bedrock::C

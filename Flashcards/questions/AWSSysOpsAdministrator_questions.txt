@@ -1,0 +1,69 @@
+Percentage of resources covered by RIs or SPs.::Lifecycle Rules::Reservation Coverage::Security Hub::Automation::B
+Monitors endpoint availability.::Route 53 Health Check::GuardDuty::Failover Routing::Incident Manager::A
+Private VPC access to S3/DynamoDB.::Bucket Versioning::CloudWatch Metrics::Route 53 Health Check::Gateway Endpoint::D
+Stateless filter at subnet level.::Budgets::Network ACL::CloudWatch Alarms::VPC Flow Logs::B
+Daily snapshot and transaction logs for PITR.::RDS Automated Backup::Cost Explorer::Inventory::CloudTrail Lake::A
+Coordinate incident response automatically.::CloudWatch Metrics::NAT Gateway::CloudWatch Logs Insights::Incident Manager::D
+GUI for server management.::RDS Performance Insights::Shield::Systems Manager Fleet Manager::RDS Automated Backup::C
+Aggregate events for analysis.::CloudTrail Lake::EC2 Instance Status Checks::Operational Excellence::VPC Flow Logs::A
+Visualize cost and usage.::AWS Backup::Config::Elastic Beanstalk Monitoring::Cost Explorer::D
+Legacy blueprint for ASG instances.::Network ACL::Launch Configuration::Rightsizing Recommendations::Gateway Endpoint::B
+Pub/sub notifications for alerts.::GuardDuty::SNS::Budgets::CloudWatch Alarms::B
+Stateful filter at instance level.::SSM Agent::Run Command::Security Group::ELB Access Logs::C
+Store request logs in target bucket.::Service Limits::S3 Access Logs::AWS Health Dashboard::Cost Explorer::B
+OS‑level metrics for RDS.::Budgets::Enhanced Monitoring::Security Group::OpsCenter::B
+Custom widgets to visualize metrics.::CloudWatch Dashboards::GuardDuty::Failover Routing::Launch Configuration::A
+Alerts for spending thresholds.::Budgets::Lifecycle Rules::Aurora Replicas::SQS Dead‑Letter Queue::A
+Suite of operational tools for managing instances.::AWS Systems Manager::Operational Excellence::Resource Tagging::Aurora Replicas::A
+Track resource configuration changes, compliance rules.::RDS Automated Backup::Health Checks::CloudFormation Drift Detection::Config::D
+Copy objects to different region.::EC2 Instance Status Checks::Auto Scaling Policies::CloudWatch Alarms::Cross‑Region Replication::D
+Browser‑based shell or CLI for secure instance access.::Session Manager::State Manager::Security Group::NAT Gateway::A
+Execute playbooks for routine tasks (backup, AMI patch).::Alarms Composite::EC2 Instance Status Checks::Automation::Parameter Store::C
+Capture IP traffic flow for network interfaces.::Stack Update Rollback::Auto Scaling Policies::VPC Flow Logs::Run Command::C
+Compute Optimizer suggestions.::Rightsizing Recommendations::CloudWatch Dashboards::Cost Explorer::Systems Manager Fleet Manager::A
+Ops pillar in Well‑Architected focusing on run and evolve.::Operational Excellence::Failover Routing::Stack Update Rollback::CloudWatch Dashboards::A
+Maintain desired state configuration across instances.::AWS Health Dashboard::Aurora Replicas::State Manager::Security Group::C
+Personalized alerts for AWS events.::Elasticache Redis Cluster Mode::AWS Systems Manager::Trusted Advisor::AWS Health Dashboard::D
+Scaling data across shards.::Elasticache Redis Cluster Mode::Elastic IP::Systems Manager Fleet Manager::AWS Systems Manager::A
+Machine learning threat detection.::State Manager::GuardDuty::VPC Flow Logs::Aurora Replicas::B
+Keep multiple object versions.::Gateway Endpoint::Bucket Versioning::Elasticache Redis Cluster Mode::Aurora Replicas::B
+Monitor hardware and software issues.::Elastic Beanstalk Monitoring::NAT Gateway::Session Manager::EC2 Instance Status Checks::D
+Static public IPv4 address for EC2.::Elastic IP::AWS Backup::Aurora Replicas::CloudWatch Logs::A
+Checks for best practices and limits.::Trusted Advisor::Shield::Resource Tagging::Security Hub::A
+Managed DDoS protection.::Patch Manager::OpsCenter::Interface Endpoint::Shield::D
+Automate OS patching schedules.::ELB Access Logs::Patch Manager::OpsCenter::Failover Routing::B
+Link EC2‑Classic instances to VPC.::ClassicLink (deprecated)::CloudWatch Alarms::Auto Scaling Policies::Gateway Endpoint::A
+Centralized dashboard for ops items and incidents.::Elastic IP::OpsCenter::Data Lifecycle Manager::CloudTrail Lake::B
+Detect differences between stack and template.::CloudFormation Drift Detection::ELB Access Logs::Failover Routing::Bucket Versioning::A
+Aggregates security findings.::Health Checks::Rightsizing Recommendations::Systems Manager Fleet Manager::Security Hub::D
+Visualize DB load metrics.::CloudWatch Metrics::RDS Performance Insights::CloudWatch Logs::Shield::B
+Organize resources and cost allocation.::Resource Tagging::Auto Scaling Policies::OpsWorks::Inspector::A
+Outbound internet for private subnets.::Cross‑Region Replication::SSM Agent::Service Limits::NAT Gateway::D
+Logical AND/OR between multiple alarms.::Systems Manager Fleet Manager::AWS Health Dashboard::RDS Automated Backup::Alarms Composite::D
+Vulnerability assessment for EC2/ECR.::AWS Systems Manager::Inspector::Config::CloudWatch Logs::B
+Soft quotas for AWS resources that can be raised.::Budgets::Service Limits::NAT Gateway::Failover Routing::B
+Automated backup across services.::CloudTrail::Route 53 Health Check::Shield::AWS Backup::D
+Automate creation/retention of EBS snapshots.::CloudWatch Logs::EBS Snapshot Lifecycle::Trusted Advisor::AWS Health Dashboard::B
+Create and rotate Amazon Machine Images.::S3 Access Logs::AMI Lifecycle::Gateway Endpoint::Data Lifecycle Manager::B
+Record account activity, store in S3.::Elasticache Redis Cluster Mode::Auto Scaling Policies::Elastic IP::CloudTrail::D
+Default and custom metrics for AWS resources.::CloudWatch Dashboards::CloudWatch Metrics::Budgets::Inventory::B
+Scale reads and automatic failover.::Elastic Load Balancer::GuardDuty::Interface Endpoint::Aurora Replicas::D
+Key‑value storage for configuration data.::AWS Health Dashboard::CloudWatch Metrics::Parameter Store::Interface Endpoint::C
+Automatically revert failed updates.::AMI Lifecycle::Inventory::Elastic IP::Stack Update Rollback::D
+Target tracking, step scaling, scheduled actions.::CloudWatch Logs Insights::Auto Scaling Policies::ClassicLink (deprecated)::VPC Flow Logs::B
+Request log stored in S3.::Service Limits::ELB Access Logs::CloudWatch Logs::GuardDuty::B
+Centralized log storage and analysis.::CloudWatch Logs::Data Lifecycle Manager::SNS::Lifecycle Rules::A
+Handle processing failures.::Gateway Endpoint::OpsWorks::Elasticache Redis Cluster Mode::SQS Dead‑Letter Queue::D
+Expire or transition objects automatically.::Operational Excellence::Elastic IP::Lifecycle Rules::EC2 Instance Status Checks::C
+Query and analyze logs with SQL‑like language.::AWS Systems Manager::GuardDuty::CloudTrail Lake::CloudWatch Logs Insights::D
+Collect metadata about your fleet.::Parameter Store::Enhanced Monitoring::Inventory::OpsWorks::C
+Health reports, rolling updates.::ELB Access Logs::SNS::Elastic Beanstalk Monitoring::OpsWorks::C
+Distribute traffic; health checks determine instance status.::Elastic Load Balancer::OpsCenter::Rightsizing Recommendations::Run Command::A
+ENI providing private connectivity to AWS services.::Patch Manager::Elastic Load Balancer::Interface Endpoint::NAT Gateway::C
+Software on EC2/on‑prem servers enabling Systems Manager features.::SSM Agent::Route 53 Health Check::AWS Health Dashboard::AMI Lifecycle::A
+System for determining instance or endpoint health.::Security Hub::Failover Routing::Health Checks::Shield::C
+Configuration management using Chef/Puppet.::Config::Auto Scaling Policies::AMI Lifecycle::OpsWorks::D
+Automate EBS snapshot lifecycle.::Budgets::Enhanced Monitoring::Data Lifecycle Manager::SQS Dead‑Letter Queue::C
+Send alerts or perform actions when metric crosses threshold.::Elastic IP::AWS Systems Manager::CloudWatch Alarms::Stack Update Rollback::C
+Execute remote commands at scale via Systems Manager.::S3 Access Logs::Automation::Shield::Run Command::D
+DNS policy for active‑passive setups.::Interface Endpoint::Run Command::Health Checks::Failover Routing::D

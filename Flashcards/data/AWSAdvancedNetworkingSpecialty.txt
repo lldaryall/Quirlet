@@ -1,0 +1,52 @@
+CIDR Notation::Classless Inter‑Domain Routing for IP ranges.
+VPC::Virtual Private Cloud isolated network environment.
+Subnet::Range of IP addresses within a VPC.
+Route Table::Determines traffic routing for subnets.
+Internet Gateway::Allows internet access for VPC resources.
+Egress‑Only IGW::Provides outbound‑only IPv6 internet access.
+NAT Gateway::Outbound internet for private subnet instances.
+NAT Instance::EC2 instance providing NAT; user‑managed.
+Transit Gateway::Hub to connect VPCs and on‑prem networks.
+Transit Gateway Attachment::Connect VPC, VPN, DX, or peering to TGW.
+VPN CloudHub::Connect multiple on‑prem VPNs via VPG.
+Site‑to‑Site VPN::IPSec tunnels between on‑prem and AWS.
+Direct Connect::Dedicated low‑latency private link to AWS.
+DX Gateway::Connects on‑prem DX circuits to multiple VPCs.
+MACsec::DX Layer‑2 encryption.
+BGP::Dynamic routing protocol used with DX and VPN.
+Customer Gateway::On‑prem endpoint for VPN/DX.
+Virtual Private Gateway::AWS side endpoint for VPN connections.
+Route 53 Resolver::DNS service inside VPC with inbound/outbound endpoints.
+Resolver Rules::Conditional forwarding for domains.
+Latency‑Based Routing::Send users to region with lowest latency.
+Geolocation Routing::Route based on user location country/continent.
+Multivalue Answer::Return multiple healthy records for load balancing.
+Weighted Routing::Split traffic by percentage.
+Edge Location::CloudFront cache node near users.
+Regional Edge Cache::Larger cache between edge and origin.
+Global Accelerator::Anycast IP addresses directing traffic to endpoints.
+Endpoint Group::Collection of endpoints in GA region.
+PrivateLink::Expose service via interface endpoint.
+Gateway Endpoint::Private S3/DynamoDB connectivity.
+Path MTU Discovery::Discover max transmission unit size.
+Jumbo Frames::9001‑byte MTU for higher throughput in VPC.
+Security Group::Stateful firewall at instance level.
+Network ACL::Stateless firewall at subnet level.
+VPC Peering::Private, non‑transitive connectivity between two VPCs.
+Peering Overlapping CIDR::Not allowed; CIDR blocks must not overlap.
+Gateway Load Balancer::Deploy third‑party appliances transparently.
+Network Load Balancer::High‑performance Layer‑4 load balancer.
+ALB Advanced Request Routing::Path and host‑based rules.
+GWLB Endpoint::Interface endpoint for GWLB.
+Flow Logs::Capture IP traffic metadata.
+Traffic Mirroring::Copy packet payloads to monitoring appliances.
+AWS Network Firewall::Managed network layer security policy engine.
+IPAM::Centralize IP address management.
+IPv6 Dual Stack::Assign both IPv4 and IPv6 addresses to resources.
+Accelerated Site‑to‑Site VPN::VPN over AWS backbone via edge locations.
+Hybrid DNS::Split‑horizon DNS architecture.
+Overlay Networks::Software‑defined networking such as VXLAN.
+MTU 1500 Limit::Across VPC peering; 8500 for TGW & ENA jumbo frames.
+Packet Per Second Limits::EC2 network performance baseline.
+Throughput Capacity::Gbps scaling with instance type.
+NLB Static IP::One per AZ, supports Elastic IP.

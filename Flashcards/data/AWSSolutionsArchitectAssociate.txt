@@ -1,0 +1,102 @@
+Well‑Architected Framework::Best‑practice guide with pillars: Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization, Sustainability.
+High Availability::System design to minimize downtime using multiple AZs or Regions.
+Fault Tolerance::Ability of a workload to continue operating despite failures.
+Scalability::Capability to handle growth by adding resources automatically or manually.
+Elasticity::Automatically increase or decrease resources to match demand.
+EC2 Auto Scaling Group::Automatically adds or removes EC2 instances behind a load balancer.
+Launch Template::Versioned blueprint for EC2 instance parameters used by ASG.
+Elastic Load Balancer::Distributes traffic across multiple targets to improve availability.
+Application Load Balancer::Layer‑7 load balancer for HTTP/HTTPS with path‑based routing.
+Network Load Balancer::Layer‑4 load balancer for ultra‑low latency, static IP.
+Gateway Load Balancer::Handles third‑party virtual appliances and preserves client IP.
+Route 53 Routing Policies::Simple, Failover, Geolocation, Geoproximity, Latency, Multivalue, Weighted.
+Route 53 Health Checks::Monitors endpoint health and integrates with DNS failover.
+Placement Group::Logical grouping of instances for low latency or high throughput (Cluster, Spread, Partition).
+EC2 Reserved Instances::One‑year or three‑year commitment for capacity reservation and discount.
+EC2 Savings Plans::Flexible compute savings across instance families and regions.
+Spot Instances::Up to 90% discount for interruptible workloads.
+Elastic IP::Static public IPv4 address reachable via the internet.
+Elastic Network Interface::Virtual network interface that can be attached to an EC2 instance.
+AWS Nitro System::Hardware and software foundation delivering enhanced security and performance for EC2.
+Amazon S3 Durability::Designed for 99.999999999% durability (11 nines) of objects.
+S3 Cross‑Region Replication::Automatic asynchronous copy of objects to another bucket in a different region.
+S3 Lifecycle Rules::Transition or expire objects based on age or versions.
+Multi‑AZ RDS::Primary DB synchronously replicates to standby in another AZ for automatic failover.
+Read Replicas::Asynchronous replication to scale read traffic for RDS/Aurora.
+Aurora Global Database::Cross‑region replication with <1 s lag and fast failover.
+RDS Backups::Automated backups and manual snapshots for point‑in‑time recovery.
+Database Migration Service::Migrate relational or NoSQL databases with minimal downtime.
+CloudFront Origin Access Control::Restricts S3 bucket access to CloudFront only.
+CloudFront Origin Shield::Adds a centralized cache layer to reduce origin load.
+ElastiCache Redis::In‑memory cache/service for microsecond latency data access.
+ElastiCache Memcached::Simple in‑memory cache, excellent for horizontal scaling.
+AWS Global Accelerator::Anycast IP addresses that improve global application availability and performance.
+VPC CIDR::Private IPv4 address range assigned to a VPC.
+Public Subnet::Subnet with route to Internet Gateway.
+Private Subnet::Subnet without direct internet route; can reach internet via NAT.
+NAT Gateway::Managed service giving private subnets outbound internet access.
+Transit Gateway::Central hub to connect multiple VPCs and on‑prem networks.
+VPC Peering::Direct one‑to‑one private connectivity between two VPCs.
+PrivateLink::Expose service endpoints privately within consumer VPCs.
+Security Group::Stateful virtual firewall at the instance ENI.
+Network ACL::Stateless firewall at the subnet level.
+CloudWatch Logs::Stores logs, enables metric filters and insights.
+CloudTrail::Records API calls, events, and account activity.
+Config::Tracks configuration changes of AWS resources.
+AWS Backup::Centralized, policy‑based backup across AWS services.
+KMS CMK::Managed encryption key stored in AWS Key Management Service.
+Parameter Store::Secure key‑value store within AWS Systems Manager.
+Secrets Manager::Rotates, manages, and retrieves database/API secrets.
+CloudFormation::Infrastructure as code using declarative templates.
+CDK::Define infrastructure in code using Python, TypeScript, Java, etc.
+Elastic Beanstalk::PaaS that handles deployment, scaling, monitoring of web apps.
+ECS::Container orchestration for Docker containers on EC2 or Fargate.
+EKS::Managed Kubernetes control plane.
+Fargate::Serverless compute engine for containers.
+S3 Transfer Acceleration::Speeds up uploads using the CloudFront edge network.
+S3 Pre‑Signed URL::Time‑limited URL that grants temporary access to a private object.
+AWS Snowball Edge::Petabyte‑scale data transfer and edge computing device.
+AWS Storage Gateway::Hybrid storage virtual appliance: File, Volume, Tape gateways.
+Direct Connect::Dedicated private network link to AWS.
+Hybrid DNS::Combining on‑premises DNS with Route 53 Resolver inbound/outbound endpoints.
+Shield Advanced::Enhanced DDoS protection with cost‑protection.
+WAF::Layer‑7 firewall protecting web apps from OWASP threats.
+GuardDuty::Intelligent threat detection using AI & anomaly detection.
+Security Hub::Aggregates security alerts and compliance findings.
+Inspector::Continuous vulnerability scanning of EC2 and ECR.
+Trusted Advisor::Provides recommendations for cost, security, performance, limits, and sustainability.
+Cost Explorer::Analyze AWS cost and usage patterns.
+Savings Plans Coverage::Percentage of eligible spend covered by Savings Plans.
+AWS Budgets::Set and track cost/usage/RI/SP coverage budgets.
+Well‑Architected Tool::Self‑service review tool for workloads.
+Service Catalog::Catalog of approved products managed under IT governance.
+S3 Event Notification::Triggers Lambda, SNS, or SQS on object events.
+EventBridge::Event bus for SaaS, AWS, custom app events.
+Step Functions::Serverless orchestration of multi‑step workflows.
+Auto Scaling Lifecycle Hook::Pause instance launch/terminate to run custom actions.
+CloudFront Signed Cookies::Restrict access to multiple resources for auth users.
+RTO/RPO::Recovery metrics for disaster recovery strategies.
+Pilot Light::DR pattern where minimal core services run in second region.
+Warm Standby::Scaled‑down full environment always running in second region.
+Multi‑Region Active‑Active::Live traffic served from multiple regions simultaneously.
+Elastic File System::Shared NFS storage that grows/shrinks automatically.
+FSx for NetApp ONTAP::Fully managed shared file storage built on NetApp tech.
+FSx for Lustre::High‑performance file system integrated with S3.
+Amazon MQ::Managed message broker for Apache ActiveMQ/RabbitMQ.
+SQS FIFO::First‑In‑First‑Out queues ensuring ordered message processing.
+SNS Topic::High‑throughput pub/sub push notifications.
+Amazon Cognito::User sign‑up, sign‑in, and access control for web/mobile apps.
+IAM Access Analyzer::Identifies resources shared with external principals.
+Service‑Linked Role::IAM role pre‑defined by AWS service with minimal permissions.
+CloudFront Cache Policy::Controls cache key and TTL behavior.
+DynamoDB Global Table::Multi‑region, multi‑active database replication.
+AWS Outposts::Bring AWS infrastructure and services on‑premises.
+CloudEndure Migration::(Now AWS Application Migration Service) replicates servers into AWS.
+S3 Access Point::Simplifies managing data access at scale.
+Control Tower Guardrails::Preventive/detective controls using SCPs and Config Rules.
+Tagging Strategy::Consistent resource metadata enabling automation and cost allocation.
+CloudWatch Alarm Action::Auto Scale, SNS, or EC2 action on threshold breach.
+EB Customer‑Managed Encryption::Elastic Beanstalk environments using KMS keys.
+Athena Federated Query::Query data sources like JDBC, DynamoDB via Lambda connector.
+CloudTrail Organization Trail::Aggregate events from all accounts in org.
+VPC Endpoints Types::Interface and Gateway endpoints for private service connectivity.

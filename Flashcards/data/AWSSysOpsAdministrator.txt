@@ -1,0 +1,69 @@
+CloudWatch Metrics::Default and custom metrics for AWS resources.
+CloudWatch Dashboards::Custom widgets to visualize metrics.
+CloudWatch Alarms::Send alerts or perform actions when metric crosses threshold.
+CloudWatch Logs::Centralized log storage and analysis.
+CloudWatch Logs Insights::Query and analyze logs with SQL‑like language.
+AWS Systems Manager::Suite of operational tools for managing instances.
+SSM Agent::Software on EC2/on‑prem servers enabling Systems Manager features.
+Run Command::Execute remote commands at scale via Systems Manager.
+State Manager::Maintain desired state configuration across instances.
+Patch Manager::Automate OS patching schedules.
+Session Manager::Browser‑based shell or CLI for secure instance access.
+Inventory::Collect metadata about your fleet.
+Automation::Execute playbooks for routine tasks (backup, AMI patch).
+OpsCenter::Centralized dashboard for ops items and incidents.
+Parameter Store::Key‑value storage for configuration data.
+AWS Backup::Automated backup across services.
+EBS Snapshot Lifecycle::Automate creation/retention of EBS snapshots.
+RDS Automated Backup::Daily snapshot and transaction logs for PITR.
+CloudTrail::Record account activity, store in S3.
+CloudTrail Lake::Aggregate events for analysis.
+Config::Track resource configuration changes, compliance rules.
+Trusted Advisor::Checks for best practices and limits.
+Shield::Managed DDoS protection.
+GuardDuty::Machine learning threat detection.
+Security Hub::Aggregates security findings.
+Inspector::Vulnerability assessment for EC2/ECR.
+SNS::Pub/sub notifications for alerts.
+SQS Dead‑Letter Queue::Handle processing failures.
+Auto Scaling Policies::Target tracking, step scaling, scheduled actions.
+Launch Configuration::Legacy blueprint for ASG instances.
+Elastic Load Balancer::Distribute traffic; health checks determine instance status.
+ELB Access Logs::Request log stored in S3.
+Health Checks::System for determining instance or endpoint health.
+Service Limits::Soft quotas for AWS resources that can be raised.
+VPC Flow Logs::Capture IP traffic flow for network interfaces.
+Network ACL::Stateless filter at subnet level.
+Security Group::Stateful filter at instance level.
+NAT Gateway::Outbound internet for private subnets.
+Gateway Endpoint::Private VPC access to S3/DynamoDB.
+Interface Endpoint::ENI providing private connectivity to AWS services.
+Resource Tagging::Organize resources and cost allocation.
+Cost Explorer::Visualize cost and usage.
+Budgets::Alerts for spending thresholds.
+Rightsizing Recommendations::Compute Optimizer suggestions.
+EC2 Instance Status Checks::Monitor hardware and software issues.
+AMI Lifecycle::Create and rotate Amazon Machine Images.
+Elastic IP::Static public IPv4 address for EC2.
+Reservation Coverage::Percentage of resources covered by RIs or SPs.
+CloudFormation Drift Detection::Detect differences between stack and template.
+Stack Update Rollback::Automatically revert failed updates.
+OpsWorks::Configuration management using Chef/Puppet.
+Elastic Beanstalk Monitoring::Health reports, rolling updates.
+Route 53 Health Check::Monitors endpoint availability.
+Failover Routing::DNS policy for active‑passive setups.
+S3 Access Logs::Store request logs in target bucket.
+Lifecycle Rules::Expire or transition objects automatically.
+Bucket Versioning::Keep multiple object versions.
+Cross‑Region Replication::Copy objects to different region.
+Data Lifecycle Manager::Automate EBS snapshot lifecycle.
+RDS Performance Insights::Visualize DB load metrics.
+Enhanced Monitoring::OS‑level metrics for RDS.
+Aurora Replicas::Scale reads and automatic failover.
+ClassicLink (deprecated)::Link EC2‑Classic instances to VPC.
+Elasticache Redis Cluster Mode::Scaling data across shards.
+Alarms Composite::Logical AND/OR between multiple alarms.
+Systems Manager Fleet Manager::GUI for server management.
+AWS Health Dashboard::Personalized alerts for AWS events.
+Operational Excellence::Ops pillar in Well‑Architected focusing on run and evolve.
+Incident Manager::Coordinate incident response automatically.

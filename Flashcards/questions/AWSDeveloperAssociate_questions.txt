@@ -1,0 +1,77 @@
+On‑demand auto‑scaling relational database.::Cognito Identity Pool::S3 Transfer Acceleration::Retries and Exponential Backoff::Aurora Serverless v2::D
+Best practice for throttling errors.::Retries and Exponential Backoff::Step Functions State Machine::StackSet::Continuous Delivery::A
+Fully managed REST and HTTP APIs for serverless backends.::API Gateway::CDK Constructs::KMS Encrypt API::CloudFront Custom Domain::A
+Time‑limited URL granting temporary object access.::S3 Presigned URL::Continuous Delivery::Pagination SDK::AppConfig::A
+Conversational AI (chatbots) service.::AWS Region::Availability Zone::Lex::Cross‑Account Role::C
+Managed Docker container registry.::Cognito Identity Pool::Signed Cookies::SQS FIFO Queue::ECR::D
+Shift small percentage of traffic before full rollout.::Canary Deployment::Retries and Exponential Backoff::CDK Constructs::Cross‑Account Role::A
+Automates deployment to EC2, Lambda, or on‑prem.::App Mesh::Kinesis Firehose::KMS Encrypt API::CodeDeploy::D
+Fully managed private Git repositories.::Glue ETL Job::Translate::Canary Deployment::CodeCommit::D
+Exactly‑once processing, strict order.::Translate::StackSet::AWS SDK::SQS FIFO Queue::D
+Invoke Lambda on object create/delete.::RDS Proxy::Blue/Green Deployment::S3 Event Notification::MSK::C
+Real‑time streaming ingestion for apps.::Cognito Identity Pool::CloudWatch Logs Insights::Translate::Kinesis Data Stream::D
+Grants temporary AWS credentials to signed‑in users.::Retries and Exponential Backoff::CloudWatch Logs Insights::EKS Managed Node Group::Cognito Identity Pool::D
+Automated deployments after CI tests pass.::Continuous Delivery::RDS Proxy::CodeBuild::Aurora Serverless v2::A
+Deploy pipeline into multiple AWS accounts.::CloudWatch Alarm::CloudFront Custom Domain::Retries and Exponential Backoff::Cross‑Account Role::D
+Language‑specific libraries to access AWS APIs.::CodeBuild::MSK::X‑Ray Trace::AWS SDK::D
+JSON struct to embed custom metrics in logs.::DynamoDB Conditional Write::OpenSearch::CloudWatch Embedded Metric Format::EKS Managed Node Group::C
+Orchestrates CI/CD pipelines integrating Code* services.::CloudWatch Logs Insights::API Gateway::CodePipeline::OpenSearch::C
+Deploy CloudFormation stacks across many accounts & regions.::Kinesis Data Analytics::Cross‑Account Role::CodeStar::StackSet::D
+Publish app metrics using PutMetricData API.::Aurora Serverless v2::RDS Proxy::CloudWatch Custom Metrics::SQS Standard Queue::C
+Private connectivity for S3/DynamoDB/API Gateway from VPC.::Lambda Layers::CodeCommit::Glue ETL Job::VPC Endpoint::D
+Retrieve subset of data from objects using SQL.::Availability Zone::Glue ETL Job::SQS Standard Queue::S3 Select::D
+Filters events and routes to target services.::Signed Cookies::AWS SDK::CodeCommit::EventBridge Rule::D
+Secure configuration and secrets storage (free tier).::Lex::Availability Zone::Parameter Store::Elastic Beanstalk Blue/Green::C
+Automated node lifecycle for Kubernetes clusters.::API Gateway Stages::CloudWatch Logs Insights::Lex::EKS Managed Node Group::D
+Connection pooling for serverless apps.::AppConfig::RDS Proxy::Continuous Delivery::ECS Fargate::B
+Encrypt small blobs (<4 KB) directly via SDK.::KMS Encrypt API::Signed Cookies::ECR::CloudWatch Logs Insights::A
+Edge network speeds up uploads worldwide.::CodePipeline::Instance Metadata Service v2::S3 Transfer Acceleration::STS AssumeRole::C
+Browser‑based IDE pre‑configured with AWS CLI.::Polly::AppConfig::OpenSearch::AWS Cloud9::D
+Advanced secrets management with rotation.::Secrets Manager::Elastic Transcoder/MediaConvert::CloudFormation Change Set::EKS Managed Node Group::A
+Service mesh for application‑level networking.::ECR::Kinesis Data Stream::App Mesh::EventBridge Rule::C
+Automatic expiration and deletion of stale items.::DynamoDB TTL::VPC Endpoint::Continuous Delivery::S3 Select::A
+Pub/sub messaging with multiple protocols.::Glue ETL Job::AWS Region::CloudFront Custom Domain::SNS Topic::D
+Swap CNAME to redirect traffic to new environment.::Lambda Concurrency::Glue ETL Job::Lex::Elastic Beanstalk Blue/Green::D
+User directory for authentication.::Cognito User Pool::AWS Region::StackSet::Blue/Green Deployment::A
+Process media on demand.::AWS Region::Elastic Transcoder/MediaConvert::ECS Fargate::DynamoDB Conditional Write::B
+Query log data with SQL‑like syntax.::S3 Select::CloudFormation Change Set::CloudWatch Logs Insights::Availability Zone::C
+Real‑time language translation API.::Elastic Beanstalk Environment::STS AssumeRole::Translate::CloudWatch Embedded Metric Format::C
+Command‑line tool to manage AWS services.::AWS CLI::Glue ETL Job::DynamoDB TTL::SAM (Serverless Application Model)::A
+Named deployments (dev, test, prod) with unique URLs.::Lambda Concurrency::API Gateway Stages::AWS Cloud9::Canary Deployment::B
+Transform data in Python/Scala and write back to S3.::CloudFront Custom Domain::Instance Metadata Service v2::Glue ETL Job::Cognito User Pool::C
+Managed platform for app deployment.::Elastic Beanstalk Environment::Kinesis Data Stream::Instance Metadata Service v2::Glue ETL Job::A
+At‑least‑once delivery, best‑effort order.::Availability Zone::SQS Standard Queue::Kinesis Data Analytics::Kinesis Firehose::B
+Use CNAME and ACM certificate for API front‑door.::CloudFront Custom Domain::CodeDeploy::Cross‑Account Role::Elasticache for Redis Pub/Sub::A
+Get temporary security credentials programmatically.::Signed Cookies::STS AssumeRole::CloudFront Custom Domain::Polly::B
+Serverless compute engine for containers.::ECS Fargate::CodePipeline::EKS Managed Node Group::Secrets Manager::A
+Select region closest to users to reduce latency.::AWS Region::S3 Select::Elastic Beanstalk Blue/Green::Kinesis Data Stream::A
+Framework for building serverless apps using CloudFormation syntax.::Canary Deployment::SAM (Serverless Application Model)::Blue/Green Deployment::CDK Constructs::B
+Visual workflow for orchestrating Lambda/services.::Glue ETL Job::Parameter Store::KMS Encrypt API::Step Functions State Machine::D
+Distribute common code/assets across multiple Lambda functions.::CloudWatch Custom Metrics::Lambda Layers::Kinesis Firehose::Elastic Transcoder/MediaConvert::B
+Asynchronous success/failure routing to SNS/SQS/EventBridge.::DynamoDB Conditional Write::StackSet::Blue/Green Deployment::Lambda Destinations::D
+Reserved and provisioned concurrency to control scaling.::API Gateway Stages::S3 Multipart Upload::Lambda Concurrency::EventBridge Rule::C
+Text‑to‑speech service used in apps.::API Gateway Stages::VPC Endpoint::CloudFront Custom Domain::Polly::D
+Handling paginated API responses.::SNS Topic::Pagination SDK::Elastic Beanstalk Blue/Green::CodeDeploy::B
+Reusable, higher‑level abstractions in AWS CDK code.::VPC Endpoint::CodeBuild::CDK Constructs::Elastic Beanstalk Blue/Green::C
+Grant temporary permissions to running app (EC2/ECS/Lambda).::IAM Role::CodePipeline::SNS Mobile Push::CloudFront Custom Domain::A
+Replace stack by launching new environment then swap.::Blue/Green Deployment::Elasticache for Redis Pub/Sub::MSK::AWS SDK::A
+Unified UI for managing DevOps projects.::CodeStar::AppConfig::S3 Multipart Upload::Elastic Transcoder/MediaConvert::A
+Send notifications to iOS/Android devices.::Cognito User Pool::RDS Proxy::Lex::SNS Mobile Push::D
+Managed Apache Kafka for streaming.::MSK::S3 Event Notification::CodeStar::Polly::A
+Continuous integration service to compile and test code.::SQS FIFO Queue::CodeDeploy::Canary Deployment::CodeBuild::D
+Grant time‑limited CloudFront resources access to multiple files.::STS AssumeRole::Signed Cookies::StackSet::Lambda Destinations::B
+Preview changes to stack before applying.::CloudFormation Change Set::CDK Constructs::Polly::IAM Role::A
+Prevent overwrite if attribute exists/doesn't exist.::DynamoDB Conditional Write::Instance Metadata Service v2::Lex::CloudFormation Change Set::A
+Secure way to retrieve temporary creds in EC2.::Instance Metadata Service v2::Kinesis Data Analytics::Cognito User Pool::MSK::A
+Message brokering between microservices.::MSK::Polly::Availability Zone::Elasticache for Redis Pub/Sub::D
+Serverless querying of S3 data using SQL.::Step Functions State Machine::Athena::Availability Zone::EKS Managed Node Group::B
+Time‑ordered sequence of item changes to integrate with Lambda.::CDK Constructs::MSK::EventBridge Rule::DynamoDB Streams::D
+Load streaming data to S3, Redshift, OpenSearch.::S3 Transfer Acceleration::Lambda Layers::KMS Encrypt API::Kinesis Firehose::D
+SQL queries over streaming data.::Lambda Concurrency::Kinesis Firehose::Kinesis Data Analytics::VPC Endpoint::C
+Parallel upload parts of large objects.::Parameter Store::SNS Mobile Push::S3 Multipart Upload::S3 Transfer Acceleration::C
+Feature flags and runtime configuration outside code.::Cognito Identity Pool::AppConfig::StackSet::App Mesh::B
+Trigger action based on metric threshold.::STS AssumeRole::CloudWatch Alarm::OpenSearch::CodePipeline::B
+Design for AZ fault isolation in your apps.::Kinesis Data Analytics::Bastion Host::CodeCommit::Availability Zone::D
+End‑to‑end request tracing across microservices.::Polly::S3 Presigned URL::VPC Endpoint::X‑Ray Trace::D
+Secure admin entry point to private networks.::STS AssumeRole::Elastic Beanstalk Environment::SQS Standard Queue::Bastion Host::D
+Full‑text search and log analytics engine.::Elastic Transcoder/MediaConvert::Aurora Serverless v2::Bastion Host::OpenSearch::D

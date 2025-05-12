@@ -1,0 +1,53 @@
+SageMaker Studio::Web‑based IDE for ML lifecycle.
+SageMaker Notebook::Managed Jupyter notebooks.
+SageMaker Training Job::Managed training on dedicated ML instances.
+SageMaker Processing::Run preprocessing or postprocessing code at scale.
+SageMaker Autopilot::AutoML service to generate best model.
+SageMaker Ground Truth::Data labeling service with human‑in‑the‑loop.
+SageMaker Feature Store::Central repository of ML features.
+SageMaker Model Registry::Track model versions and approvals.
+SageMaker Inference Endpoint::Hosted service to deploy models for real‑time predictions.
+SageMaker Multi‑Model Endpoint::Host multiple models behind single endpoint.
+SageMaker Serverless Inference::Automatically scales to zero for intermittent traffic.
+SageMaker Batch Transform::Offline predictions on large datasets.
+SageMaker Clarify::Detect bias and explain models.
+SageMaker Debugger::Monitor training to detect issues.
+SageMaker Model Monitor::Detect data drift in production.
+SageMaker Pipelines::CI/CD service for ML workflows.
+SageMaker JumpStart::Pre‑built models and solutions.
+SageMaker Neo::Compile models for edge devices.
+SageMaker Edge Manager::Manage models on edge devices.
+SageMaker Experiments::Track parameters, metrics, and artifacts.
+S3 Data Lake::Store training data at scale.
+Glue::ETL service to prepare features.
+Athena::Query raw data for exploration.
+EMR Spark::Distributed data processing job for feature engineering.
+Kinesis Data Streams::Real‑time inference data ingestion.
+AWS Batch::Run containerized training jobs.
+ECR::Container images for training/inference.
+EKS::Kubernetes cluster for distributed ML.
+EC2 P4d::GPU instances for deep learning.
+Spot Training::Use Spot Instances for SageMaker training.
+Data Wrangler::Low‑code data preparation inside SageMaker.
+Ground Truth Plus::Fully managed labeling service.
+Personalize::Managed recommender system service.
+Forecast::Time‑series forecasting service.
+Rekognition::Image and video analysis.
+Comprehend::NLP sentiment and entity analysis.
+Textract::OCR and form extraction.
+Translate::Real‑time language translation.
+Polly::Text‑to‑speech.
+Lex::Conversational AI.
+Bedrock::Foundation model API for generative AI.
+Redshift ML::Train ML models with SQL using SageMaker Autopilot.
+Neptune ML::Graph neural networks on Neptune graphs.
+Inferentia::AWS custom inference chip.
+Trainium::AWS custom training chip.
+Hyperparameter Tuning::Bayesian optimization with SageMaker.
+Evaluation Metrics::Accuracy, Precision, Recall, ROC AUC, RMSE.
+Data Leakage::Training on information unavailable during inference.
+Bias Mitigation::Techniques to reduce model bias.
+MLOps::Operationalizing ML workflows.
+Blue/Green Deployment::Deploy new model version and switch traffic gradually.
+Canary Deployment::Route small traffic slice to new model.
+Shadow Testing::Run new model in parallel without affecting production.

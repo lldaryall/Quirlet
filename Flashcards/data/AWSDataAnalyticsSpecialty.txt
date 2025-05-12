@@ -1,0 +1,54 @@
+Data Lake::Centralized repository storing structured and unstructured data at any scale.
+Lake Formation::Set up secure data lake on S3 with governed tables.
+Glue Data Catalog::Metadata repository for S3 and other data stores.
+Glue Crawler::Crawl data stores to populate Data Catalog.
+Glue ETL::Serverless Spark jobs to transform data.
+Glue Studio::Visual interface to create ETL workflows.
+Glue DataBrew::No‑code data preparation service.
+Athena::Serverless SQL queries on S3.
+Athena Federated Query::Query data sources via Lambda connectors.
+S3 Select::Retrieve subset of object data via SQL.
+Redshift::Petabyte‑scale data warehouse.
+Redshift Spectrum::Query S3 data directly using Redshift.
+Redshift RA3::Compute/storage separation with managed storage.
+Redshift Concurrency Scaling::Automatically adds clusters to handle bursts.
+Materialized View::Precompute result sets for performance.
+OpenSearch Service::Search, log analytics, observability.
+Kinesis Data Streams::Real‑time streaming platform.
+Kinesis Firehose::Load streaming data to S3, Redshift, OpenSearch.
+Kinesis Data Analytics::SQL queries on streaming data.
+Managed Streaming for Kafka::Fully managed Apache Kafka.
+MSK Connect::Run Kafka Connect connector tasks.
+Data Pipeline::Orchestrate data movement and transformation (legacy).
+DataSync::Fast data transfer between on‑prem and AWS.
+Snowball Edge::Offline data transfer and edge compute.
+EMR::Managed Hadoop/Spark cluster for big data processing.
+EMR Serverless::On‑demand Spark/Hive runtime without cluster management.
+EMRFS Consistent View::S3 consistency layer for EMR.
+Glue Schema Registry::Manage streaming data schemas.
+QuickSight::Serverless BI dashboards and ML insights.
+QuickSight Q::Ask questions in natural language to build visuals.
+DynamoDB Streams::Capture table changes for analytics.
+Athena Partition Projection::Speed queries by defining partition scheme.
+Cost Allocation Tags::Track analytics workload spend.
+EventBridge Pipes::Easy stream processing between Kinesis/SQS and targets.
+Step Functions ETL Orchestration::Coordinate Glue jobs, EMR, Lambda.
+S3 Intelligent Tiering::Auto move data between storage tiers.
+RDS Snapshot Export to S3::Unload data for analytics.
+DMS Full Load & CDC::Move relational data to analytics store.
+Iceberg Table Format::Immutable table format for data lake analytics.
+Parquet::Columnar storage format optimized for analytics.
+ORC::Optimized Row Columnar format.
+Compression Codecs::Snappy, GZIP, Zstandard for analytics files.
+Athena Workgroups::Separate query environments, enforce limits.
+Query Result Caching::Athena cache to reduce costs.
+Glue Partition Index::Speed up queries by indexing partitions.
+Data Governance::Lake Formation permissions, tag‑based access control.
+Fine‑grained Access::Column‑level security in Lake Formation.
+Streaming ETL::Kinesis Data Analytics & Glue streaming jobs.
+EMR Notebook::Managed Jupyter for Spark.
+EMR on EKS::Run Spark on existing Kubernetes.
+Spark Structured Streaming::Process streaming data with micro‑batches.
+Elastic Views (Preview)::Materialize DynamoDB streams to views.
+Sagemaker Feature Store::Central registry of ML features.
+Data Lifecycle::Ingest, Store, Catalog, Transform, Analyze, Visualize.

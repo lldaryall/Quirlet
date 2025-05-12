@@ -1,0 +1,195 @@
+Elastic Kubernetes Service for managed Kubernetes clusters.::Amazon MemoryDB for Redis::AWS Snowball::AWS Step Functions::Amazon EKS::D
+Network of Regions, Availability Zones, Local Zones, Wavelength Zones, and Edge Locations that provide global reach and fault isolation.::AWS Global Infrastructure::AWS Batch::CloudWatch Logs::Lambda Pricing::A
+Stores log files from AWS resources and applications.::AWS Step Functions::CloudWatch Logs::AWS License Manager::Savings Plans::B
+Serverless data integration and ETL service that makes data discoverable, preparable, and combinable.::CloudFront Distribution::Operational Excellence::SaaS::AWS Glue::D
+Evaluation rule that checks AWS resource configurations for compliance.::Config Rule::AWS Snowcone::S3 Encryption::CAF Perspectives::A
+Natural language query capability in Amazon QuickSight dashboards.::KMS CMK::Amazon Kendra::Amazon Rekognition::QuickSight Q::D
+Infrastructure deployment that brings AWS compute and storage to the edge of 5G networks.::Amazon MSK::Private Subnet::Wavelength Zone::Fault Tolerance::C
+The source of the files that CloudFront distributes (e.g., S3 bucket, HTTP server).::IAM Access Keys::CloudFront Origin::Amazon FSx::EC2 Instance Types::B
+Automates code deployments to EC2, Lambda, and on‑prem servers.::AWS CodeDeploy::Amazon Kinesis::Sustainability::Trusted Advisor Checks::A
+Long‑term credentials (Access Key ID and Secret Access Key) for programmatic access.::Reserved Instances::AWS Global Accelerator::Amazon Inspector::IAM Access Keys::D
+Service that helps centrally manage multiple AWS accounts with consolidated billing and guardrails.::Security Group::AWS Organizations::Amazon VPC::Amazon Textract::B
+Continuous integration service that compiles source code, runs tests, and produces artifacts.::AWS CodeBuild::AWS Marketplace::RTO::Enterprise Support::A
+Scalable Domain Name System (DNS), domain registration, and health‑checking service.::Amazon Route 53::Sustainability Shared Responsibility::AWS Organizations::AWS Glue::A
+Strategy and processes for restoring service and data after a catastrophic event.::VPC Endpoint::Disaster Recovery::VPC CIDR Block::Security::B
+Tracks, governs, and reports on software licenses across AWS and on‑premises.::Amazon OpenSearch Service::Amazon GuardDuty::IAM Policy::AWS License Manager::D
+Server‑side (SSE‑S3, SSE‑KMS, SSE‑C) and client‑side encryption options.::AWS Knowledge Center::AWS Glue::S3 Encryption::Local Zone::C
+Self‑service portal for AWS compliance reports and security documentation.::S3 Intelligent‑Tiering::EC2 Instance Types::Personal Health Dashboard::AWS Artifact::D
+Image and video analysis service using deep learning.::Amazon EFS::AWS STS::AWS Security Hub::Amazon Rekognition::D
+Automates landing zone creation with best‑practice multi‑account setup and guardrails.::AWS Control Tower::EC2 Purchasing Options::AWS X‑Ray::Amazon Lex::A
+Keeps multiple variants of an object in the same bucket.::Amazon CloudFront::AWS License Manager::S3 Versioning::KMS CMK::C
+Ongoing costs incurred for running services and operations.::AWS Budgets::CloudWatch Logs Insights::Operational Expenditure (OpEx)::Amazon Aurora::C
+Central metadata repository for data lakes and analytics.::AWS Cloud Adoption Framework::Amazon Inspector::Compute Optimizer::Glue Data Catalog::D
+Small, portable, edge device (8 TB usable) for data transfer and edge processing.::IAM Access Keys::AWS Systems Manager::AWS Snowcone::Reliability::C
+Enhanced support with a Technical Account Manager (TAM) for smaller enterprises.::Amazon QuickSight::AWS Backup Vault::Enterprise On‑Ramp Support::Amazon ECS::C
+Visualization tool to analyze AWS usage and spending trends over time.::Security::Enterprise Support::AWS Cost Explorer::Basic Support::C
+Platform‑as‑a‑service to deploy and scale web applications automatically.::Amazon Route 53::Spot Instances::Amazon Kinesis::AWS Elastic Beanstalk::D
+Infrastructure‑as‑code service using JSON/YAML templates for repeatable deployments.::AWS CloudFormation::Temporary Security Credentials::S3 Lifecycle Policy::Scored Questions::A
+24×7 phone, chat, and email support with Trusted Advisor full checks and guidance.::S3 Versioning::Sustainability Shared Responsibility::VPC Flow Logs::Business Support::D
+Multi‑Factor Authentication that adds a second verification method to sign‑in.::Amazon ECS::Amazon Kinesis::RTO::MFA::D
+Serverless workflow orchestration with visual state machines.::AWS CloudShell::ELB Types::AWS Step Functions::Migration Strategies (6 R’s)::C
+In‑memory cache for DynamoDB that delivers microsecond read latency.::Performance Efficiency::DynamoDB Accelerator (DAX)::Security::AWS Support Center::B
+Guidance with six perspectives (Business, People, Governance, Platform, Security, Operations) for planning migrations.::Reserved Instances::AWS Cloud Adoption Framework::AWS Application Migration Service::S3 Lifecycle Policy::B
+Notification triggered when cost or usage exceeds a defined budget threshold.::AWS CloudShell::Read Replica::Savings Plans::Budgets Alert::D
+Feature flag and configuration management service within Systems Manager.::Elastic IP::S3 Storage Classes::AWS AppConfig::CloudWatch Logs::C
+Exabyte‑scale data transfer service using a 45‑foot shipping container truck.::Exam Content Domains::AWS Snowmobile::Amazon CloudWatch::Amazon Lightsail::B
+Managed data lake that aggregates CloudTrail events for audit and analysis.::CloudTrail Lake::VPC Components::Well‑Architected Framework::Region::A
+Redis‑compatible, durable, in‑memory database service.::Parameter Store Tiers::Amazon MemoryDB for Redis::Security Group Rule::Amazon Aurora::B
+Scaled score of 700 out of 1000 is required to pass the Cloud Practitioner exam.::AWS Exam Pass Score::Sustainability::Amazon CloudFront::Cost Allocation Tags::A
+Provides alerts and remediation guidance when AWS events affect your resources.::Cost Allocation Tags::AWS Elastic Beanstalk::Personal Health Dashboard::AWS Exam Pass Score::C
+Intelligent enterprise search service powered by machine learning.::Amazon DynamoDB::Wavelength Zone::Security Group Rule::Amazon Kendra::D
+Fully managed service to build, train, and deploy machine learning models at scale.::Amazon MemoryDB for Redis::Amazon SageMaker::Service Control Policy::Fault Tolerance::B
+Elastic Block Store persistent block storage for EC2.::SaaS::Amazon EBS::AWS Exam Pass Score::Availability Zone::B
+Asynchronous replication targeted at scaling read traffic for RDS databases.::Amazon OpenSearch Service::Read Replica::CloudWatch Logs Insights::Auto Scaling::B
+Serverless compute service that runs code in response to events and automatically manages the compute resources.::AWS Amplify::EBS Volume Types::AWS Lambda::Service Control Policy::C
+Storage class that automatically moves objects between access tiers based on usage patterns.::Wavelength Zone::S3 Intelligent‑Tiering::Amazon MSK::AWS Backup::B
+Extension of an AWS Region that places compute, storage, and database services close to large population or industry centers.::MFA::Local Zone::Temporary Security Credentials::Security Group::B
+Introductory free usage limits for new AWS accounts across many services.::Amazon Redshift::Amazon S3::AWS AppSync::Free Tier::D
+Most detailed dataset of AWS resource usage and associated costs.::AWS Cost and Usage Report::Amazon Aurora::RTO::AWS License Manager::A
+RDS configuration that synchronously replicates data to a standby in another AZ for failover.::Trusted Advisor Checks::AWS Transit Gateway::Fault Tolerance::Multi‑AZ Deployment (RDS)::D
+Web Application Firewall that protects against common web exploits.::AWS WAF::AWS Step Functions::EC2 Purchasing Options::EBS Snapshot::A
+Collection of IAM users sharing the same permissions.::AWS Firewall Manager::IAM Group::RTO::AWS Fargate::B
+Prebuilt Amazon Machine Image sold or shared through AWS Marketplace.::Amazon GuardDuty::Marketplace AMI::Amazon Comprehend::AWS re:Post::B
+Cloud Development Kit that lets you define cloud infrastructure using familiar programming languages.::AWS CDK::Amazon VPC::Personal Health Dashboard::AWS KMS::A
+Business, People, Governance, Platform, Security, Operations viewpoints in the Cloud Adoption Framework.::Wavelength Zone::Amazon EFS::AWS AppConfig::CAF Perspectives::D
+Automated preventative and detective controls implemented via SCPs and AWS Config.::Amazon EKS::AWS Organizations::Landing Zone Guardrails::Amazon QuickSight::C
+Library of articles addressing common customer questions and best practices.::NAT Gateway::CloudFront Origin::AWS Knowledge Center::AWS Transit Gateway::C
+Public webpage that displays the current status of AWS services.::Service Health Dashboard::AWS Cost Explorer::S3 Lifecycle Policy::Amazon MemoryDB for Redis::A
+Elastic Container Service orchestration for Docker containers.::AWS CloudTrail::Amazon ECS::ELB Types::Amazon Kinesis::B
+Centralized backup service to automate and manage backups across AWS resources.::Basic Support::CloudWatch Alarms::Amazon SageMaker::AWS Backup::D
+Intelligent threat detection service for AWS accounts and workloads.::Public Subnet::Amazon GuardDuty::PaaS::Scored Questions::B
+Identity with permission policies that can be assumed by principals for temporary access.::AWS Cost Explorer::Service Health Dashboard::IAM Role::EC2 Purchasing Options::C
+A collection of edge locations serving specific content via CloudFront.::CloudTrail Lake::CloudFront Distribution::Region::Amazon ECR::B
+Software as a Service: software delivery model where applications are hosted by provider and offered over internet.::SaaS::Sustainability::Edge Location::AWS CodeCommit::A
+Elastic Compute Cloud virtual servers in the cloud.::Amazon EC2::Config Rule::Amazon Kendra::DynamoDB Accelerator (DAX)::A
+Web portal to manage support plans, open tickets, and view Trusted Advisor reports.::Fault Tolerance::AWS CodeBuild::AWS Support Center::Read Replica::C
+Static, public IPv4 address designed for dynamic cloud computing.::Amazon Inspector::AWS Direct Connect::Reserved Instances::Elastic IP::D
+Pillar focused on operations, monitoring, and continuous improvement.::Operational Excellence::Personal Health Dashboard::AWS WAF::Elastic Load Balancing::A
+Conversational AI service for chatbots and voice assistants.::Amazon VPC::Amazon Lex::AWS Cloud Adoption Framework::Private Subnet::B
+Cloud Concepts, Security & Compliance, Cloud Technology & Services, Billing & Pricing & Support.::AWS Batch::Exam Content Domains::AWS Trusted Advisor::Amazon QuickSight::B
+Stateful virtual firewall that controls inbound and outbound traffic at the instance level.::EC2 Instance Types::AWS re:Post::Security Group::Capital Expenditure (CapEx)::C
+Resource‑based JSON policy attached to an S3 bucket to control access.::AWS AppConfig::S3 Bucket Policy::AWS Service Catalog::RPO::B
+On‑Demand, Reserved, Savings Plans, Spot, and Dedicated Hosts/Instances.::AWS Snowcone::Amazon ECR::Migration Strategies (6 R’s)::EC2 Purchasing Options::D
+Unified interface for operational data, automation, and patching across AWS resources.::AWS Control Tower::AWS License Manager::Landing Zone Guardrails::AWS Systems Manager::D
+Design approach that keeps applications running with minimal down‑time.::Amazon RDS::CloudFront Distribution::High Availability::S3 Storage Classes::C
+On‑demand delivery of IT resources over the internet with pay‑as‑you‑go pricing.::Agility::CloudFront Origin::Amazon OpenSearch Service::Cloud Computing::D
+Subnets, route tables, internet gateways, NAT gateways, security groups, and network ACLs.::EC2 Purchasing Options::VPC Components::High Availability::Cost Allocation Tags::B
+gp3, gp2, io2, io1, st1, sc1 volume types for performance and cost needs.::EBS Volume Types::Spot Instances::AWS Step Functions::Amazon Inspector::A
+Paid plan with business‑hour access to Cloud Support Associates via email.::CloudTrail Event::S3 Storage Classes::Developer Support::AWS Control Tower::C
+Pillar concerned with recovery, distributed design, and fault tolerance.::CloudWatch Logs::AWS re:Post::Reliability::Amazon ECS::C
+Fully managed pub/sub messaging and mobile notifications service.::CloudTrail Lake::NAT Gateway::S3 Versioning::Amazon SNS::D
+Simplified cloud platform for small workloads with predictable pricing.::Amazon Athena::Amazon Lightsail::AWS Application Migration Service::IaaS::B
+Pillar focused on resource selection and monitoring to maintain performance.::AWS Snowmobile::Performance Efficiency::Read Replica::AWS Lambda::B
+Newest pillar promoting environmental sustainability of workloads.::AWS Batch::RTO::Sustainability::Basic Support::C
+Private network connection between two VPCs to route traffic using private IP addresses.::VPC Peering::EC2 Instance Types::Enterprise Support::AWS CodePipeline::A
+Web‑based tool to estimate AWS service costs and forecast monthly spend.::CloudFront Origin::AWS Pricing Calculator::IAM::Glue Data Catalog::B
+Process of matching instance types and sizes to workload requirements to optimize cost.::Rightsizing::VPC Endpoint::AWS Firewall Manager::AWS Backup::A
+A geographic area containing multiple isolated data centers called Availability Zones.::Region::VPC Peering::AWS Cloud Adoption Framework::Exam Content Domains::A
+One or more discrete data centers with redundant power, networking, and connectivity in an AWS Region.::Private Subnet::AWS Shield::Availability Zone::AWS Snowball::C
+Hybrid cloud storage service connecting on‑premises environments to AWS storage.::Temporary Security Credentials::Amazon Rekognition::AWS Storage Gateway::AWS DMS::C
+Recommends optimal AWS compute resources based on utilization patterns.::Amazon EKS::AWS Lambda::Trusted Advisor Checks::Compute Optimizer::D
+Family of managed file systems (Windows, NetApp ONTAP, Lustre, File Cache).::Security::Capital Expenditure (CapEx)::AWS Snowball::Amazon FSx::D
+Elastic File System serverless, elastic NFS file storage.::Performance Efficiency::Amazon EFS::AWS Elastic Beanstalk::Operational Excellence::B
+Service for storing, rotating, and auditing secrets such as database credentials and API keys.::IAM::AWS Secrets Manager::AWS Cloud Adoption Framework::Elasticity::B
+Key Management Service that creates and controls encryption keys used to encrypt data.::Scalability::Security Group Rule::Landing Zone Guardrails::AWS KMS::D
+Security model where AWS secures the cloud infrastructure and the customer secures what they put in the cloud (security OF vs. IN the cloud).::RTO::Shared Responsibility Model::CloudWatch Logs Insights::Amazon Inspector::B
+Serverless event bus for integrating AWS services and SaaS applications via events.::Amazon EventBridge::Performance Efficiency::Amazon Polly::VPC CIDR Block::A
+Triggers notifications or actions based on metric thresholds.::S3 Lifecycle Policy::VPC CIDR Block::AWS Control Tower::CloudWatch Alarms::D
+Monitoring and observability service providing metrics, logs, alarms, and events.::Landing Zone Guardrails::Amazon CloudWatch::Elastic Load Balancing::Reserved Instances::B
+Service that distributes incoming traffic across targets (instances, containers, IPs).::S3 Intelligent‑Tiering::Amazon MSK::RTO::Elastic Load Balancing::D
+Pillar ensuring confidentiality, integrity, and availability of systems and data.::Security::Amazon Route 53::Temporary Security Credentials::CloudWatch Logs::A
+AWS manages sustainability of the cloud; customers optimize sustainability of workloads in the cloud.::Service Health Dashboard::Sustainability Shared Responsibility::AWS Systems Manager::Cost Optimization::B
+Point‑in‑time, incremental copy of an EBS volume stored in S3.::Developer Support::Config Rule::EBS Snapshot::Amazon Textract::C
+Automatic speech recognition (ASR) service to convert speech to text.::AWS Snowcone::Amazon MSK::Amazon Athena::Amazon Transcribe::D
+IPv4 address range assigned to a VPC (e.g., 10.0.0.0/16).::VPC CIDR Block::AWS Exam Pass Score::AWS License Manager::Amazon MSK::A
+Fully managed, secure Git‑compatible source control.::Performance Efficiency::Edge Location::AWS CodeCommit::Reserved Instances::C
+Allows organizations to create and manage catalogs of approved IT services.::Amazon Inspector::AWS Service Catalog::Rightsizing::Basic Support::B
+Identity and Access Management service that controls user and service access to AWS resources.::Amazon Redshift::IAM::AWS Service Catalog::Amazon Macie::B
+Platform as a Service: provides environment for building, testing, deploying software without managing infrastructure.::PaaS::Cost Allocation Tags::Fault Tolerance::AWS Global Accelerator::A
+Managed DDoS protection service (Standard automatically included, Advanced subscription).::Amazon Comprehend::Amazon CloudWatch::AWS Shield::Amazon MemoryDB for Redis::C
+Organization‑level policy that sets permission guardrails across AWS accounts.::AWS re:Post::Scored Questions::VPC Components::Service Control Policy::D
+Serverless NoSQL key‑value and document database with single‑digit‑millisecond latency.::Rightsizing::Amazon DynamoDB::Local Zone::Amazon S3::B
+Relational Database Service that manages database engines in the cloud.::AWS Exam Pass Score::Security Group Rule::VPC Endpoint::Amazon RDS::D
+Continuous delivery service for automated release pipelines.::AWS CodePipeline::IAM Access Keys::Amazon Lightsail::Marketplace AMI::A
+Browser‑based shell with AWS CLI pre‑configured for interactive sessions.::Amazon Redshift::VPC Endpoint::Performance Efficiency::AWS CloudShell::D
+Automated security assessment service that scans AWS workloads for vulnerabilities.::AWS Pricing Calculator::Amazon Inspector::Amazon FSx::MFA::B
+Fully managed cloud data warehouse that scales to petabytes.::Config Rule::Business Support::Amazon Redshift::CAF Perspectives::C
+Interactive query language and service to analyze CloudWatch logs data.::CloudWatch Alarms::CloudWatch Logs Insights::AWS Batch::AWS Budgets::B
+Virtual Private Cloud — logically isolated section of AWS with user‑defined network configuration.::S3 Storage Classes::Amazon Athena::AWS Support Center::Amazon VPC::D
+Simple Storage Service object storage with 11 nines durability.::Amazon S3::NAT Gateway::AWS Control Tower::Read Replica::A
+Lift‑and‑shift migration service (MGN) for rehosting servers on AWS.::AWS Storage Gateway::Amazon SQS::AWS Application Migration Service::Service Control Policy::C
+Service that automatically extracts text and data from scanned documents.::AWS Backup::Spot Instances::Amazon Polly::Amazon Textract::D
+Managed Elasticsearch / OpenSearch clusters for search and analytics.::Amazon OpenSearch Service::Developer Support::AWS CloudTrail::AWS CodeCommit::A
+Central security policy management for AWS WAF, Shield Advanced, and VPC security groups.::Elastic IP::AWS Firewall Manager::Spot Instances::Rightsizing::B
+Elastic Container Registry for storing, sharing, and deploying container images.::AWS Storage Gateway::Network ACL::Amazon ECR::AWS CloudShell::C
+Pending, Running, Stopping, Stopped, Shutting‑down, Terminated lifecycle states.::IAM::Amazon Comprehend::EC2 Instance States::AWS Organizations::C
+Natural language processing (NLP) service for text analysis.::Amazon Comprehend::AWS AppSync::Budgets Alert::Amazon EBS::A
+Logical container for storing and managing backup copies with encryption and policies.::AWS CodeBuild::Basic Support::AWS Lambda::AWS Backup Vault::D
+Serverless compute engine for containers that removes need to manage servers.::Billing Alerts::Amazon Transcribe::AWS Fargate::Amazon Comprehend::C
+User‑defined or AWS‑generated tags that organize resource costs on detailed billing reports.::Cost Allocation Tags::AWS Security Hub::IAM::AWS Shield::A
+Pre‑configured combinations of CPU, memory, storage, and networking resources.::AWS Trusted Advisor::CloudWatch Logs Insights::Scored Questions::EC2 Instance Types::D
+Managed streaming service for Apache Kafka clusters.::Reliability::Amazon MSK::VPC Endpoint::AWS DMS::B
+Datacenter site used by CloudFront and AWS Global Accelerator to cache content closer to users.::SSM Parameter Store::AWS Direct Connect::VPC CIDR Block::Edge Location::D
+Ability of a system to handle increased load by adding resources.::Scalability::AWS Cost and Usage Report::Amazon MSK::VPC Peering::A
+Rugged edge device for offline data transfer (Tens of TB to PB) and edge computing.::AWS Snowball::Amazon Lex::AWS Lambda::Elastic Load Balancing::A
+Recovery Point Objective: maximum acceptable amount of data loss measured in time.::Operational Excellence::Amazon Redshift::RPO::AWS Security Hub::C
+Free support plan with 24×7 customer service, documentation, and community forums.::Local Zone::Basic Support::AWS Cloud Adoption Framework::SaaS::B
+Rehost, Replatform, Repurchase, Refactor, Retire, Retain options for moving workloads to AWS.::IAM User::Amazon Route 53::Cloud Computing::Migration Strategies (6 R’s)::D
+Standard, Standard‑IA, One Zone‑IA, Intelligent‑Tiering, Glacier Flexible, Glacier Deep Archive, Express One Zone.::VPC Flow Logs::S3 Storage Classes::AWS Direct Connect::Landing Zone Guardrails::B
+Rules to transition or expire objects between storage classes over time.::Amazon EKS::S3 Lifecycle Policy::Multi‑AZ Deployment (RDS)::Basic Support::B
+Flexible pricing model offering up to 72% savings over On‑Demand rates for EC2, Fargate, and Lambda.::IAM Policy::Savings Plans::Basic Support::AWS Cost and Usage Report::B
+Service that automatically adjusts compute capacity to maintain steady, predictable performance.::Auto Scaling::IAM Access Keys::CloudWatch Logs::IaaS::A
+Capture and store information about IP traffic going to and from network interfaces.::AWS CloudShell::VPC Flow Logs::S3 Lifecycle Policy::Marketplace AMI::B
+Set custom cost and usage budgets and receive alerts when thresholds are exceeded.::AWS Budgets::High Availability::AWS Elastic Beanstalk::AWS Backup Vault::A
+Capacity reservation and discounted pricing for EC2, RDS, Redshift, and ElastiCache.::Security Group::Reserved Instances::IAM Role::Amazon Kendra::B
+CloudWatch alarms that notify when estimated charges exceed thresholds.::AWS Transit Gateway::AWS Trusted Advisor::Edge Location::Billing Alerts::D
+Community‑driven Q&A site for sharing AWS knowledge and getting expert answers.::AWS Cloud9::AWS Storage Gateway::Amazon SNS::AWS re:Post::D
+Application, Network, Gateway, and Classic (legacy) load balancers.::ELB Types::IAM User::RDS Engines::Elastic IP::A
+Serverless business intelligence and dashboard service.::Operational Expenditure (OpEx)::Amazon QuickSight::Amazon MemoryDB for Redis::AWS Cloud9::B
+Real‑time data streaming services (Data Streams, Firehose, Data Analytics, Video Streams).::Amazon OpenSearch Service::Availability Zone::Amazon Kinesis::AWS WAF::C
+JSON document that defines permissions for a principal.::IAM Policy::AWS Artifact::Spot Instances::Amazon EKS::A
+Spare EC2 capacity offered at up to 90% discount compared to On‑Demand.::Amazon EC2::AWS Shield::Spot Instances::SSM Parameter Store::C
+Secure hierarchical storage for configuration data and secrets.::AWS CDK::SSM Parameter Store::AWS License Manager::Enterprise Support::B
+Security Token Service that issues temporary security credentials for IAM roles or federated users.::Migration Strategies (6 R’s)::AWS STS::Lambda Pricing::AWS AppConfig::B
+Managed GraphQL service for real‑time data queries and synchronization.::Amazon Rekognition::AWS AppSync::AWS Snowball::VPC Components::B
+Standard (free, basic limits) and Advanced (paid, higher limits & larger parameters).::AWS Direct Connect::Amazon EKS::Parameter Store Tiers::Amazon Redshift::C
+Pillar aimed at delivering business value at the lowest price point.::Rightsizing::Amazon SQS::Cost Optimization::AWS Control Tower::C
+Fully managed graph database service for highly connected data.::Amazon Neptune::Amazon ECR::AWS Pricing Calculator::Elastic Load Balancing::A
+Serverless interactive query service that analyzes data directly in Amazon S3 using SQL.::Amazon Athena::AWS Control Tower::AWS re:Post::Developer Support::A
+Database Migration Service to migrate databases to AWS easily and securely.::AWS DMS::AWS WAF::Capital Expenditure (CapEx)::AWS Pricing Calculator::A
+The exam has 50 scored and 15 unscored (experimental) questions.::Basic Support::Amazon Polly::Cloud Computing::Scored Questions::D
+Set of tools and services to build, ship, and host full‑stack web and mobile apps.::AWS Systems Manager::Amazon ECR::S3 Encryption::AWS Amplify::D
+Hub‑and‑spoke service to interconnect VPCs and on‑premises networks at scale.::AWS Budgets::AWS Transit Gateway::AWS CloudFormation::AWS CodePipeline::B
+Dedicated private network connection from on‑premises to AWS.::Amazon Lex::AWS Direct Connect::Amazon Comprehend::SaaS::B
+Global content delivery network (CDN) that caches content at edge locations.::Enterprise On‑Ramp Support::Amazon CloudFront::Spot Instances::VPC Flow Logs::B
+Highest tier with dedicated TAM, Concierge, and 15‑minute SLA for critical workloads.::AWS CodeDeploy::Config Rule::CloudWatch Alarms::Enterprise Support::D
+Set of best practices across six pillars: Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization, Sustainability.::Well‑Architected Framework::Amazon RDS::Reliability::Enterprise Support::A
+MySQL, PostgreSQL, MariaDB, Oracle, SQL Server, and Amazon Aurora.::Fault Tolerance::AWS Backup::IAM User::RDS Engines::D
+Subnet routed to an Internet Gateway making its resources reachable from the internet.::IAM::AWS DMS::AWS CloudShell::Public Subnet::D
+Records and evaluates the configurations of AWS resources for compliance.::AWS Config::AWS Cloud9::Lambda Pricing::Business Support::A
+Infrastructure as a Service: cloud model providing virtualized computing resources over the internet.::AWS KMS::AWS WAF::Scalability::IaaS::D
+Recovery Time Objective: maximum acceptable time to restore service after disruption.::RTO::AWS Batch::AWS Storage Gateway::Amazon Route 53::A
+Text‑to‑speech service that converts text into lifelike speech.::Rightsizing::Operational Expenditure (OpEx)::AWS CloudTrail::Amazon Polly::D
+Record of an action taken by a user, role, or service in AWS (API call).::AWS Firewall Manager::Sustainability Shared Responsibility::CloudTrail Event::Free Tier::C
+Rule that allows or denies specific traffic based on protocol, port, and source.::Operational Expenditure (OpEx)::Savings Plans::AWS Support Center::Security Group Rule::D
+Stateless network layer firewall that controls traffic at the subnet level.::CloudTrail Event::Network ACL::Edge Location::Region::B
+Customer Master Key used in KMS to encrypt and decrypt data.::Amazon ECS::Shared Responsibility Model::Read Replica::KMS CMK::D
+Ability of a system to continue operating properly in the event of failure of some components.::Network ACL::Amazon FSx::Fault Tolerance::QuickSight Q::C
+Digital catalog to discover, buy, and deploy third‑party software and services on AWS.::High Availability::Amazon Lex::Multi‑AZ Deployment (RDS)::AWS Marketplace::D
+Records AWS API calls and account activity for governance, compliance, and auditing.::AWS CloudTrail::AWS CodeCommit::Amazon SNS::AWS Budgets::A
+Entity with credentials that represents a person or application interacting with AWS.::IAM User::VPC Flow Logs::Capital Expenditure (CapEx)::Cost Allocation Tags::A
+Short‑term, automatically expiring credentials generated by AWS STS or roles.::AWS Fargate::Temporary Security Credentials::IaaS::Elastic Load Balancing::B
+Fully managed message queuing service decoupling microservices and serverless applications.::AWS Exam Pass Score::AWS Snowmobile::AWS Shield::Amazon SQS::D
+Service that improves performance and availability using the AWS global network and Anycast IPs.::AWS Step Functions::AWS Global Accelerator::AWS Budgets::Shared Responsibility Model::B
+Aggregates, organizes, and prioritizes security alerts and findings across AWS services.::AWS Application Migration Service::Glue Data Catalog::AWS Security Hub::Scored Questions::C
+Subnet without a direct route to the internet; can use NAT Gateway for outbound traffic.::Private Subnet::Amazon OpenSearch Service::KMS CMK::AWS Step Functions::A
+Cloud‑based integrated development environment accessible via browser.::VPC Flow Logs::CloudTrail Lake::Private Subnet::AWS Cloud9::D
+Managed batch computing service for efficiently running hundreds to thousands of batch jobs.::Amazon VPC::EC2 Instance States::AWS Batch::Disaster Recovery::C
+Machine learning service that discovers and protects sensitive data in S3.::AWS CloudShell::Lambda Pricing::Scalability::Amazon Macie::D
+Private connection between a VPC and AWS services without traversing the public internet.::CloudTrail Lake::Performance Efficiency::VPC Endpoint::Amazon EBS::C
+Distributed tracing system for analyzing and debugging applications.::AWS Elastic Beanstalk::ELB Types::AWS X‑Ray::Amazon Athena::C
+Provides real‑time recommendations for cost optimization, security, performance, sustainability, and fault tolerance.::Amazon QuickSight::AWS CodeBuild::AWS Trusted Advisor::AWS CodeCommit::C
+Ability to automatically add or remove resources to match demand.::Elasticity::CAF Perspectives::AWS AppSync::Amazon S3::A
+Up‑front investment in physical infrastructure and equipment.::Temporary Security Credentials::Disaster Recovery::S3 Lifecycle Policy::Capital Expenditure (CapEx)::D
+High‑performance MySQL‑ and PostgreSQL‑compatible relational database built for the cloud.::Amazon Aurora::Security Group::Wavelength Zone::AWS Lambda::A
+Charged per request and compute duration measured in GB‑seconds.::Amazon Route 53::Lambda Pricing::Billing Alerts::S3 Intelligent‑Tiering::B

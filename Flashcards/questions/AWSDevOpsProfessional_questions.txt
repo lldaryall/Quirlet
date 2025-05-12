@@ -1,0 +1,61 @@
+All-at-once, Rolling, Rolling w/ batch, Immutable, Blue/Green.::CodeGuru Profiler::Elastic Beanstalk Deployment Policies::Canary Deployment::Automated Rollback::B
+Production profiling and optimization recommendations.::Quality Gates::Cost Allocation::Blue/Green Deployment::CodeGuru Profiler::D
+Practices to deploy and monitor ML in production.::MLOps::CloudWatch ServiceLens::Chaos Engineering::CodeDeploy Blue/Green::A
+Use CodeSign to sign code for integrity.::Sustainability Pillar::Patch Operations::Monorepo vs Polyrepo::Artifact Signing::D
+Policy as code to validate templates.::Security in Pipelines::CFN Guard::Feature Flags::Synthetic Monitoring::B
+Guidance for DevOps practice.::CodeBuild Phases::AWS Well‑Architected DevOps Lens::EKS Rolling Update::Incident Manager Runbook::B
+Rolling update, Blue/Green (with CodeDeploy).::ECS Deployment Types::Karpenter::Fault Injection Simulator::AWS Well‑Architected DevOps Lens::A
+Release to internal users before external.::EventBridge Pipes::Unit Testing::Deployment Rings::Service Quotas::C
+SSM Patch Manager schedule.::SageMaker Pipelines::CodeDeploy Blue/Green::Patch Operations::Lambda Version::C
+Automated remediation via Lambda.::EKS Rolling Update::ECS Deployment Types::GuardDuty Alerts::CodeDeploy Blue/Green::C
+Kubernetes deployment strategy.::Synthetics Canary::SageMaker Pipelines::Chaos Engineering::EKS Rolling Update::D
+Update existing instances.::Cost Allocation::Fargate Spot::GitFlow::CodeDeploy In‑Place::D
+Track and request limit increases via API.::Security Hub DevOps::Service Quotas::Monorepo vs Polyrepo::Artifact Signing::B
+Point‑to‑point integration with enrichment step.::Monorepo vs Polyrepo::CodePipeline Stages::CloudWatch ServiceLens::EventBridge Pipes::D
+Preview CloudFormation modifications.::Feature Flags::Change Sets::GitFlow::Drift Detection::B
+Pointer to function version enabling traffic shifting.::AWS Well‑Architected DevOps Lens::Automated Rollback::Elastic Beanstalk Deployment Policies::Lambda Alias::D
+Trigger pipeline failure based on CloudWatch alarms.::Step Functions Workflow::Chaos Engineering::Pipeline Cross‑Account::Automated Rollback::D
+Build outputs stored in S3 or CodeBuild cache.::Lambda Alias::CodeDeploy Blue/Green::Patch Operations::Artifacts::D
+AWS service for chaos experiments.::Fault Injection Simulator::Lambda Alias::Load Testing::CodeGuru Reviewer::A
+CloudWatch Synthetics monitors end‑to‑end.::Synthetics Canary::Pipeline Cross‑Account::Monorepo vs Polyrepo::CodeDeploy Blue/Green::A
+Integrate pipeline findings.::Distributed Tracing::Security Hub DevOps::CloudWatch ServiceLens::CodeDeploy In‑Place::B
+Automates deployment of microservice templates.::Feature Flags::Change Sets::AWS Proton::Blue/Green Deployment::C
+Inject controlled failure to test resilience.::Chaos Engineering::CodeBuild Phases::Monorepo vs Polyrepo::GuardDuty Alerts::A
+Tag pipelines and builds for spending visibility.::EventBridge Pipes::Pipeline as Code::Security in Pipelines::Cost Allocation::D
+AppConfig toggles new features without redeploy.::Service Quotas::Synthetics Canary::Chaos Engineering::Feature Flags::D
+Manage infrastructure using version‑controlled templates/scripts.::Infrastructure as Code::Load Testing::Canary Deployment::Lambda Version::A
+Gradually shift traffic to new version.::Lambda Alias::Infrastructure as Code::Canary Deployment::Version Control Tags::C
+Optimize environmental impact of workloads.::Sustainability Pillar::Load Testing::Drift Detection::Security in Pipelines::A
+Define CodePipeline via CloudFormation/CDK.::Pipeline as Code::CodeDeploy In‑Place::Synthetics Canary::Incident Manager Runbook::A
+Periodically run scripted flows to detect issues.::Synthetic Monitoring::Elastic Beanstalk Deployment Policies::Cost Allocation::Version Control Tags::A
+Test interaction among modules/services.::Quality Gates::GitFlow::Observability::Integration Testing::D
+Run ECS tasks at discounted price subject to termination.::Artifact Signing::Fargate Spot::Automated Rollback::Synthetic Monitoring::B
+Ensure stacks match templates.::MLOps::AWS Well‑Architected DevOps Lens::Drift Detection::Step Functions Workflow::C
+Label release versions.::Version Control Tags::Buildspec.yml::Fault Injection Simulator::CodeDeploy In‑Place::A
+Simulate traffic to gauge performance.::Load Testing::Quality Gates::MLOps::AWS Proton::A
+Standard operating procedures for events.::Sustainability Pillar::Automated Rollback::Incident Manager Runbook::Integration Testing::C
+Deploy new version alongside old; switch traffic when ready.::Quality Gates::CodeBuild Phases::Blue/Green Deployment::Step Functions Workflow::C
+Immutable snapshot of function code/config.::Unit Testing::Lambda Version::Chaos Engineering::Immutable Infrastructure::B
+Instructions file for CodeBuild project.::CodeBuild Phases::GitFlow::CodeDeploy In‑Place::Buildspec.yml::D
+Single repository vs many per service.::Sustainability Pillar::Patch Operations::Monorepo vs Polyrepo::Blue/Green Deployment::C
+End‑to‑end visibility into system health and performance.::Feature Flags::Fault Injection Simulator::Version Control Tags::Observability::D
+Run scripts during deployment lifecycle.::GuardDuty Alerts::Elastic Beanstalk Platform Hooks::Buildspec.yml::CodeGuru Profiler::B
+Branching model for releases.::Fault Injection Simulator::CodeGuru Profiler::GitFlow::CloudWatch ServiceLens::C
+Open standard for telemetry data.::OpenTelemetry::Step Functions Workflow::Pipeline as Code::Lambda Version::A
+Automated code review for bugs and security issues.::Observability::Rolling Deployment::Incident Manager Runbook::CodeGuru Reviewer::D
+Automatic blocks for test coverage or vulnerabilities.::CloudWatch ServiceLens::Lambda Alias::Lambda Version::Quality Gates::D
+Deploy new resources instead of mutating existing.::GuardDuty Alerts::Immutable Infrastructure::Step Functions Workflow::Lambda Alias::B
+Serverless orchestrator for microservices.::CodePipeline Stages::Step Functions Workflow::Version Control Tags::Deployment Rings::B
+Provision new instances via ASG or ECS and cut over.::OpenTelemetry::CodeDeploy Blue/Green::Artifacts::Buildspec.yml::B
+Automated code integration, build, test, deployment.::MLOps::CI/CD Pipeline::Monorepo vs Polyrepo::Service Quotas::B
+Source, Build, Test, Staging, Prod.::Pipeline Cross‑Account::CodePipeline Stages::CloudFormation Nested Stack::Incident Manager Runbook::B
+Use artifacts in S3 and role assumption.::Pipeline Cross‑Account::Synthetic Monitoring::Canary Deployment::Observability::A
+Follow requests across microservices (X‑Ray).::CI/CD Pipeline::ECS Deployment Types::Load Testing::Distributed Tracing::D
+Least‑privilege roles, Secrets Manager, artifact encryption.::Chaos Engineering::Lambda Version::CI/CD Pipeline::Security in Pipelines::D
+Quick validation of code correctness.::Unit Testing::Elastic Beanstalk Platform Hooks::CodeGuru Profiler::Pipeline Cross‑Account::A
+Install, Pre‑Build, Build, Post‑Build.::Load Testing::CodeBuild Phases::Immutable Infrastructure::CloudWatch ServiceLens::B
+CI/CD for ML models.::Sustainability Pillar::SageMaker Pipelines::Karpenter::Cost Allocation::B
+Integrates metrics, logs, and X‑Ray traces.::Deployment Rings::CloudWatch ServiceLens::CFN Guard::Cost Allocation::B
+Replace instances in batches.::CloudWatch ServiceLens::Rolling Deployment::AWS Proton::Fault Injection Simulator::B
+Open‑source cluster autoscaler for EKS.::Karpenter::Elastic Beanstalk Deployment Policies::GuardDuty Alerts::Fault Injection Simulator::A
+Re‑usable child template for complex deployments.::Rolling Deployment::CloudFormation Nested Stack::Observability::Patch Operations::B

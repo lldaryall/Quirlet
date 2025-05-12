@@ -1,0 +1,64 @@
+Shared Responsibility Model::AWS secures the cloud; customers secure workloads.
+Defense in Depth::Multiple layers of security controls.
+IAM Policy Types::Identity‑based, Resource‑based, Permission boundaries, SCPs, Session policies.
+IAM Access Analyzer::Detect unintended public or cross‑account access.
+AWS Organizations SCP::Service‑control policy restricting permissions across accounts.
+VPC Flow Logs::Log network traffic for analysis.
+Network Firewall::Managed network firewall for VPC.
+Gateway Load Balancer::Allows insertion of third‑party firewalls.
+AWS WAF::Protect web apps from common exploits.
+AWS Shield Advanced::Managed DDoS protection with 24×7 DRT.
+Security Hub::Aggregates and prioritizes security findings.
+GuardDuty::Threat detection from CloudTrail, DNS logs, VPC Flow Logs.
+Macie::ML to discover sensitive data in S3.
+Inspector::Vulnerability scanning for EC2 and ECR images.
+Detective::Investigate security issues using graph analysis.
+CloudTrail Lake::Centralize audit events for compliance.
+KMS CMK::Customer managed key for encryption.
+Envelope Encryption::Using data key protected by CMK.
+CloudHSM::Dedicated FIPS 140‑2 Level 3 hardware appliance.
+Secrets Manager::Securely store and rotate secrets.
+SSM Parameter Store Advanced::Encrypted parameters with larger size and rotation.
+S3 Encryption Options::SSE‑S3, SSE‑KMS, SSE‑C, client‑side.
+S3 Block Public Access::Account/bucket‑level setting to prevent public ACLs.
+S3 Access Points::Simplified access management.
+EBS Encryption by Default::Automatically encrypt new volumes.
+RDS Encryption::At rest using KMS, including backups and replicas.
+Aurora Encryption::Encrypts cluster storage volume using KMS.
+TLS Version Policy::Enforce minimum TLS versions in ELB/CloudFront.
+Certificate Manager::Provision and manage SSL/TLS certs.
+Cognito OAuth Scopes::Define API resource access rules.
+SAML Federation::Single sign‑on with corporate identity provider.
+OIDC Federation::Token‑based sign‑on for web and mobile.
+STS AssumeRoleWithSAML::Temporary AWS credentials after SAML sign‑in.
+Cross‑Account Role::Grant least‑privilege access between AWS accounts.
+Incident Response::Pre‑provision IAM roles, automation runbooks.
+Forensics::Use snapshots and log collection for analysis.
+AWS Artifact::Download compliance reports (SOC, ISO, PCI).
+Data Classification::Tagging resources by sensitivity.
+DLP::Macie for PII detection.
+Key Rotation::Automatic or manual rotation of CMK.
+CloudFront Field‑Level Encryption::Encrypt sensitive data at the edge.
+S3 Object Lock::Write‑once‑read‑many (WORM) retention compliance.
+Amazon Detective::Visualize relationships between events for investigation.
+IPSec VPN::Encrypt traffic between on‑prem and AWS.
+Direct Connect MACsec::Layer‑2 encryption option for DX.
+VPC Endpoint Policies::Restrict which services/actions can be used.
+Tag‑Based Authorization::IAM policy conditions on resource tags.
+Condition Keys::Use aws:SourceIp, aws:SecureTransport, etc.
+AWS Config Conformance Packs::Collection of rules for compliance standards.
+Audit Manager::Automate evidence collection for audits.
+CloudTrail S3 Data Events::Log object‑level activity.
+Breach Containment::Use SCPs to isolate compromised account.
+Security Hub Insights::Managed queries on findings.
+Query GuardDuty results::Integrate with EventBridge for auto‑response.
+Runtime Security::ECS Task Role & Fargate hardening.
+EC2 Instance Connect::Restrict SSH keys and logging.
+Nitro Enclave::Isolated compute environment for sensitive data.
+IAM Role Trust Policy::Defines who can assume the role.
+Service‑Linked Roles::Roles pre‑created by AWS services.
+Organizational Units::Group accounts for applying SCPs.
+AWS Control Tower::Automated multi‑account governance setup.
+Policy Simulator::Test IAM policies for access.
+AWS IPAM::Central IP address management.
+Security Pillar::Well‑Architected guidance for security.

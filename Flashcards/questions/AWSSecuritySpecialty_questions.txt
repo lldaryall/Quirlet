@@ -1,0 +1,64 @@
+Simplified access management.::S3 Access Points::Service‑Linked Roles::Macie::CloudFront Field‑Level Encryption::A
+Group accounts for applying SCPs.::Envelope Encryption::Organizational Units::S3 Encryption Options::Cross‑Account Role::B
+Protect web apps from common exploits.::Defense in Depth::AWS WAF::Certificate Manager::EBS Encryption by Default::B
+Centralize audit events for compliance.::Nitro Enclave::IPSec VPN::CloudTrail Lake::Aurora Encryption::C
+Well‑Architected guidance for security.::Security Pillar::Audit Manager::CloudTrail Lake::Envelope Encryption::A
+Use snapshots and log collection for analysis.::IAM Access Analyzer::Forensics::AWS Organizations SCP::IAM Policy Types::B
+Visualize relationships between events for investigation.::OIDC Federation::CloudTrail Lake::Amazon Detective::Defense in Depth::C
+Isolated compute environment for sensitive data.::Nitro Enclave::Service‑Linked Roles::AWS Config Conformance Packs::S3 Access Points::A
+Test IAM policies for access.::Policy Simulator::Envelope Encryption::Data Classification::AWS Config Conformance Packs::A
+ML to discover sensitive data in S3.::Macie::S3 Object Lock::Forensics::RDS Encryption::A
+Enforce minimum TLS versions in ELB/CloudFront.::VPC Endpoint Policies::IPSec VPN::CloudFront Field‑Level Encryption::TLS Version Policy::D
+Automatically encrypt new volumes.::Amazon Detective::Service‑Linked Roles::CloudTrail Lake::EBS Encryption by Default::D
+Automatic or manual rotation of CMK.::Cross‑Account Role::Cognito OAuth Scopes::Key Rotation::S3 Encryption Options::C
+Log network traffic for analysis.::AWS IPAM::S3 Access Points::Inspector::VPC Flow Logs::D
+Download compliance reports (SOC, ISO, PCI).::Incident Response::AWS Artifact::Envelope Encryption::Breach Containment::B
+ECS Task Role & Fargate hardening.::Runtime Security::Data Classification::S3 Block Public Access::Defense in Depth::A
+Single sign‑on with corporate identity provider.::Forensics::AWS WAF::SAML Federation::GuardDuty::C
+Pre‑provision IAM roles, automation runbooks.::TLS Version Policy::AWS Organizations SCP::Incident Response::Organizational Units::C
+Log object‑level activity.::CloudTrail S3 Data Events::Data Classification::Amazon Detective::Defense in Depth::A
+Restrict SSH keys and logging.::Security Hub::EC2 Instance Connect::AWS IPAM::Inspector::B
+Allows insertion of third‑party firewalls.::STS AssumeRoleWithSAML::Gateway Load Balancer::AWS IPAM::Policy Simulator::B
+At rest using KMS, including backups and replicas.::RDS Encryption::CloudTrail Lake::VPC Endpoint Policies::Security Hub::A
+Encrypts cluster storage volume using KMS.::AWS IPAM::Security Hub::Aurora Encryption::GuardDuty::C
+Use aws:SourceIp, aws:SecureTransport, etc.::EC2 Instance Connect::S3 Access Points::Detective::Condition Keys::D
+Encrypt sensitive data at the edge.::AWS Organizations SCP::Data Classification::CloudFront Field‑Level Encryption::TLS Version Policy::C
+Identity‑based, Resource‑based, Permission boundaries, SCPs, Session policies.::Shared Responsibility Model::Network Firewall::IAM Policy Types::Detective::C
+Automated multi‑account governance setup.::Certificate Manager::Audit Manager::AWS Control Tower::Shared Responsibility Model::C
+Securely store and rotate secrets.::S3 Access Points::Key Rotation::S3 Encryption Options::Secrets Manager::D
+Encrypted parameters with larger size and rotation.::Gateway Load Balancer::CloudHSM::SSM Parameter Store Advanced::Security Hub Insights::C
+Roles pre‑created by AWS services.::EBS Encryption by Default::Service‑Linked Roles::Security Hub Insights::IAM Policy Types::B
+Account/bucket‑level setting to prevent public ACLs.::AWS WAF::S3 Block Public Access::AWS IPAM::Audit Manager::B
+Tagging resources by sensitivity.::Amazon Detective::CloudFront Field‑Level Encryption::Data Classification::Forensics::C
+Aggregates and prioritizes security findings.::TLS Version Policy::S3 Object Lock::Detective::Security Hub::D
+Define API resource access rules.::Nitro Enclave::CloudTrail Lake::Detective::Cognito OAuth Scopes::D
+Integrate with EventBridge for auto‑response.::CloudHSM::OIDC Federation::Query GuardDuty results::Defense in Depth::C
+Managed network firewall for VPC.::Network Firewall::Inspector::Forensics::Gateway Load Balancer::A
+Provision and manage SSL/TLS certs.::Cross‑Account Role::S3 Block Public Access::Certificate Manager::S3 Object Lock::C
+Central IP address management.::AWS IPAM::IAM Role Trust Policy::CloudHSM::Tag‑Based Authorization::A
+AWS secures the cloud; customers secure workloads.::Detective::Envelope Encryption::Shared Responsibility Model::Forensics::C
+Dedicated FIPS 140‑2 Level 3 hardware appliance.::Defense in Depth::IPSec VPN::Aurora Encryption::CloudHSM::D
+Vulnerability scanning for EC2 and ECR images.::Inspector::EBS Encryption by Default::Defense in Depth::Certificate Manager::A
+IAM policy conditions on resource tags.::Tag‑Based Authorization::Incident Response::Data Classification::Secrets Manager::A
+Managed queries on findings.::Data Classification::Direct Connect MACsec::Security Hub Insights::AWS Config Conformance Packs::C
+Service‑control policy restricting permissions across accounts.::RDS Encryption::Security Hub::AWS Organizations SCP::Gateway Load Balancer::C
+Write‑once‑read‑many (WORM) retention compliance.::AWS Config Conformance Packs::Key Rotation::S3 Object Lock::Policy Simulator::C
+Automate evidence collection for audits.::Amazon Detective::S3 Object Lock::S3 Access Points::Audit Manager::D
+Using data key protected by CMK.::Nitro Enclave::Envelope Encryption::STS AssumeRoleWithSAML::IAM Access Analyzer::B
+Token‑based sign‑on for web and mobile.::Network Firewall::Audit Manager::Runtime Security::OIDC Federation::D
+Detect unintended public or cross‑account access.::IAM Access Analyzer::AWS Artifact::AWS Control Tower::OIDC Federation::A
+Managed DDoS protection with 24×7 DRT.::Cognito OAuth Scopes::AWS Shield Advanced::EC2 Instance Connect::Breach Containment::B
+Threat detection from CloudTrail, DNS logs, VPC Flow Logs.::CloudTrail S3 Data Events::Cross‑Account Role::GuardDuty::DLP::C
+Defines who can assume the role.::IAM Role Trust Policy::Service‑Linked Roles::Cognito OAuth Scopes::EBS Encryption by Default::A
+Encrypt traffic between on‑prem and AWS.::S3 Encryption Options::AWS Config Conformance Packs::IPSec VPN::AWS WAF::C
+Temporary AWS credentials after SAML sign‑in.::STS AssumeRoleWithSAML::AWS Shield Advanced::Network Firewall::Breach Containment::A
+Layer‑2 encryption option for DX.::Gateway Load Balancer::AWS Config Conformance Packs::Direct Connect MACsec::AWS WAF::C
+Macie for PII detection.::Inspector::Shared Responsibility Model::DLP::Security Pillar::C
+Multiple layers of security controls.::Defense in Depth::Nitro Enclave::STS AssumeRoleWithSAML::Network Firewall::A
+SSE‑S3, SSE‑KMS, SSE‑C, client‑side.::KMS CMK::S3 Encryption Options::EC2 Instance Connect::Certificate Manager::B
+Grant least‑privilege access between AWS accounts.::SSM Parameter Store Advanced::RDS Encryption::Cross‑Account Role::Security Hub::C
+Investigate security issues using graph analysis.::Condition Keys::IAM Role Trust Policy::Tag‑Based Authorization::Detective::D
+Collection of rules for compliance standards.::SSM Parameter Store Advanced::GuardDuty::Network Firewall::AWS Config Conformance Packs::D
+Restrict which services/actions can be used.::OIDC Federation::Certificate Manager::Aurora Encryption::VPC Endpoint Policies::D
+Use SCPs to isolate compromised account.::Breach Containment::Cross‑Account Role::Direct Connect MACsec::Tag‑Based Authorization::A
+Customer managed key for encryption.::AWS Control Tower::Runtime Security::KMS CMK::AWS Artifact::C

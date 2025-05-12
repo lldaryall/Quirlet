@@ -1,0 +1,77 @@
+AWS SDK::Language‑specific libraries to access AWS APIs.
+AWS CLI::Command‑line tool to manage AWS services.
+CodeCommit::Fully managed private Git repositories.
+CodeBuild::Continuous integration service to compile and test code.
+CodeDeploy::Automates deployment to EC2, Lambda, or on‑prem.
+CodePipeline::Orchestrates CI/CD pipelines integrating Code* services.
+CodeStar::Unified UI for managing DevOps projects.
+AWS Cloud9::Browser‑based IDE pre‑configured with AWS CLI.
+CloudFormation Change Set::Preview changes to stack before applying.
+CDK Constructs::Reusable, higher‑level abstractions in AWS CDK code.
+SAM (Serverless Application Model)::Framework for building serverless apps using CloudFormation syntax.
+Lambda Layers::Distribute common code/assets across multiple Lambda functions.
+Lambda Destinations::Asynchronous success/failure routing to SNS/SQS/EventBridge.
+Lambda Concurrency::Reserved and provisioned concurrency to control scaling.
+API Gateway::Fully managed REST and HTTP APIs for serverless backends.
+API Gateway Stages::Named deployments (dev, test, prod) with unique URLs.
+Cognito User Pool::User directory for authentication.
+Cognito Identity Pool::Grants temporary AWS credentials to signed‑in users.
+DynamoDB Streams::Time‑ordered sequence of item changes to integrate with Lambda.
+DynamoDB TTL::Automatic expiration and deletion of stale items.
+S3 Event Notification::Invoke Lambda on object create/delete.
+S3 Presigned URL::Time‑limited URL granting temporary object access.
+SNS Topic::Pub/sub messaging with multiple protocols.
+SQS Standard Queue::At‑least‑once delivery, best‑effort order.
+SQS FIFO Queue::Exactly‑once processing, strict order.
+EventBridge Rule::Filters events and routes to target services.
+Step Functions State Machine::Visual workflow for orchestrating Lambda/services.
+X‑Ray Trace::End‑to‑end request tracing across microservices.
+Parameter Store::Secure configuration and secrets storage (free tier).
+Secrets Manager::Advanced secrets management with rotation.
+Elastic Beanstalk Environment::Managed platform for app deployment.
+Elastic Beanstalk Blue/Green::Swap CNAME to redirect traffic to new environment.
+AppConfig::Feature flags and runtime configuration outside code.
+ECR::Managed Docker container registry.
+ECS Fargate::Serverless compute engine for containers.
+EKS Managed Node Group::Automated node lifecycle for Kubernetes clusters.
+CloudWatch Logs Insights::Query log data with SQL‑like syntax.
+CloudWatch Embedded Metric Format::JSON struct to embed custom metrics in logs.
+CloudWatch Custom Metrics::Publish app metrics using PutMetricData API.
+SNS Mobile Push::Send notifications to iOS/Android devices.
+Lex::Conversational AI (chatbots) service.
+Polly::Text‑to‑speech service used in apps.
+Translate::Real‑time language translation API.
+S3 Multipart Upload::Parallel upload parts of large objects.
+S3 Transfer Acceleration::Edge network speeds up uploads worldwide.
+Signed Cookies::Grant time‑limited CloudFront resources access to multiple files.
+IAM Role::Grant temporary permissions to running app (EC2/ECS/Lambda).
+Instance Metadata Service v2::Secure way to retrieve temporary creds in EC2.
+STS AssumeRole::Get temporary security credentials programmatically.
+KMS Encrypt API::Encrypt small blobs (<4 KB) directly via SDK.
+Elasticache for Redis Pub/Sub::Message brokering between microservices.
+Aurora Serverless v2::On‑demand auto‑scaling relational database.
+RDS Proxy::Connection pooling for serverless apps.
+S3 Select::Retrieve subset of data from objects using SQL.
+Athena::Serverless querying of S3 data using SQL.
+Glue ETL Job::Transform data in Python/Scala and write back to S3.
+OpenSearch::Full‑text search and log analytics engine.
+MSK::Managed Apache Kafka for streaming.
+Kinesis Data Stream::Real‑time streaming ingestion for apps.
+Kinesis Firehose::Load streaming data to S3, Redshift, OpenSearch.
+Kinesis Data Analytics::SQL queries over streaming data.
+CloudWatch Alarm::Trigger action based on metric threshold.
+App Mesh::Service mesh for application‑level networking.
+DynamoDB Conditional Write::Prevent overwrite if attribute exists/doesn't exist.
+Pagination SDK::Handling paginated API responses.
+Retries and Exponential Backoff::Best practice for throttling errors.
+AWS Region::Select region closest to users to reduce latency.
+Availability Zone::Design for AZ fault isolation in your apps.
+Blue/Green Deployment::Replace stack by launching new environment then swap.
+Canary Deployment::Shift small percentage of traffic before full rollout.
+Continuous Delivery::Automated deployments after CI tests pass.
+Bastion Host::Secure admin entry point to private networks.
+VPC Endpoint::Private connectivity for S3/DynamoDB/API Gateway from VPC.
+CloudFront Custom Domain::Use CNAME and ACM certificate for API front‑door.
+Cross‑Account Role::Deploy pipeline into multiple AWS accounts.
+StackSet::Deploy CloudFormation stacks across many accounts & regions.
+Elastic Transcoder/MediaConvert::Process media on demand.

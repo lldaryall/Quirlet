@@ -1,0 +1,52 @@
+DX Layer‑2 encryption.::MACsec::Latency‑Based Routing::Traffic Mirroring::VPC::A
+Determines traffic routing for subnets.::Flow Logs::Resolver Rules::Route Table::ALB Advanced Request Routing::C
+Copy packet payloads to monitoring appliances.::Customer Gateway::Traffic Mirroring::GWLB Endpoint::AWS Network Firewall::B
+Not allowed; CIDR blocks must not overlap.::MTU 1500 Limit::ALB Advanced Request Routing::Geolocation Routing::Peering Overlapping CIDR::D
+Range of IP addresses within a VPC.::NAT Instance::Customer Gateway::Subnet::Path MTU Discovery::C
+Capture IP traffic metadata.::NAT Gateway::Site‑to‑Site VPN::Flow Logs::Transit Gateway::C
+Expose service via interface endpoint.::CIDR Notation::Gateway Endpoint::PrivateLink::BGP::C
+Connect VPC, VPN, DX, or peering to TGW.::Internet Gateway::Transit Gateway Attachment::NLB Static IP::BGP::B
+Collection of endpoints in GA region.::NAT Gateway::VPN CloudHub::CIDR Notation::Endpoint Group::D
+Allows internet access for VPC resources.::CIDR Notation::Route 53 Resolver::Multivalue Answer::Internet Gateway::D
+On‑prem endpoint for VPN/DX.::MTU 1500 Limit::Hybrid DNS::Jumbo Frames::Customer Gateway::D
+Hub to connect VPCs and on‑prem networks.::PrivateLink::Gateway Endpoint::VPC Peering::Transit Gateway::D
+Dynamic routing protocol used with DX and VPN.::BGP::Latency‑Based Routing::IPAM::NLB Static IP::A
+Send users to region with lowest latency.::Route Table::Gateway Load Balancer::Internet Gateway::Latency‑Based Routing::D
+Split traffic by percentage.::Path MTU Discovery::BGP::Weighted Routing::Route 53 Resolver::C
+DNS service inside VPC with inbound/outbound endpoints.::Transit Gateway Attachment::Subnet::Customer Gateway::Route 53 Resolver::D
+High‑performance Layer‑4 load balancer.::VPN CloudHub::MACsec::Network Load Balancer::Direct Connect::C
+Connects on‑prem DX circuits to multiple VPCs.::DX Gateway::GWLB Endpoint::Path MTU Discovery::Global Accelerator::A
+Centralize IP address management.::NLB Static IP::IPAM::Endpoint Group::Peering Overlapping CIDR::B
+Private S3/DynamoDB connectivity.::NAT Instance::Gateway Endpoint::MACsec::Route Table::B
+Provides outbound‑only IPv6 internet access.::Path MTU Discovery::NAT Gateway::Egress‑Only IGW::Direct Connect::C
+Dedicated low‑latency private link to AWS.::Direct Connect::GWLB Endpoint::Gateway Load Balancer::Route Table::A
+Virtual Private Cloud isolated network environment.::Weighted Routing::VPC::Peering Overlapping CIDR::Latency‑Based Routing::B
+Assign both IPv4 and IPv6 addresses to resources.::IPv6 Dual Stack::Flow Logs::Edge Location::BGP::A
+Classless Inter‑Domain Routing for IP ranges.::Geolocation Routing::ALB Advanced Request Routing::CIDR Notation::Security Group::C
+VPN over AWS backbone via edge locations.::Accelerated Site‑to‑Site VPN::Transit Gateway::NAT Instance::Network Load Balancer::A
+Stateful firewall at instance level.::Resolver Rules::Security Group::Network Load Balancer::Internet Gateway::B
+Interface endpoint for GWLB.::GWLB Endpoint::BGP::Path MTU Discovery::CIDR Notation::A
+Return multiple healthy records for load balancing.::Multivalue Answer::Flow Logs::MACsec::Egress‑Only IGW::A
+Across VPC peering; 8500 for TGW & ENA jumbo frames.::VPN CloudHub::NAT Gateway::MTU 1500 Limit::Transit Gateway Attachment::C
+One per AZ, supports Elastic IP.::Latency‑Based Routing::NLB Static IP::Direct Connect::Traffic Mirroring::B
+Deploy third‑party appliances transparently.::Accelerated Site‑to‑Site VPN::NLB Static IP::PrivateLink::Gateway Load Balancer::D
+Conditional forwarding for domains.::Resolver Rules::Site‑to‑Site VPN::Gateway Endpoint::NAT Gateway::A
+Connect multiple on‑prem VPNs via VPG.::Flow Logs::VPN CloudHub::Endpoint Group::Subnet::B
+CloudFront cache node near users.::Edge Location::GWLB Endpoint::Transit Gateway Attachment::IPv6 Dual Stack::A
+Discover max transmission unit size.::Route 53 Resolver::Subnet::Transit Gateway Attachment::Path MTU Discovery::D
+Private, non‑transitive connectivity between two VPCs.::VPN CloudHub::Peering Overlapping CIDR::VPC Peering::Flow Logs::C
+Stateless firewall at subnet level.::Network ACL::Global Accelerator::VPN CloudHub::DX Gateway::A
+Route based on user location country/continent.::ALB Advanced Request Routing::VPN CloudHub::Throughput Capacity::Geolocation Routing::D
+IPSec tunnels between on‑prem and AWS.::Site‑to‑Site VPN::Transit Gateway Attachment::Accelerated Site‑to‑Site VPN::Multivalue Answer::A
+Path and host‑based rules.::Route Table::Resolver Rules::ALB Advanced Request Routing::Packet Per Second Limits::C
+EC2 network performance baseline.::AWS Network Firewall::Resolver Rules::Subnet::Packet Per Second Limits::D
+Anycast IP addresses directing traffic to endpoints.::Direct Connect::VPC Peering::MACsec::Global Accelerator::D
+9001‑byte MTU for higher throughput in VPC.::NAT Gateway::Peering Overlapping CIDR::NAT Instance::Jumbo Frames::D
+EC2 instance providing NAT; user‑managed.::CIDR Notation::Endpoint Group::NAT Instance::NLB Static IP::C
+Gbps scaling with instance type.::Throughput Capacity::VPC::ALB Advanced Request Routing::GWLB Endpoint::A
+Larger cache between edge and origin.::Transit Gateway Attachment::Edge Location::Site‑to‑Site VPN::Regional Edge Cache::D
+AWS side endpoint for VPN connections.::Virtual Private Gateway::Jumbo Frames::Peering Overlapping CIDR::Throughput Capacity::A
+Managed network layer security policy engine.::Site‑to‑Site VPN::AWS Network Firewall::Direct Connect::DX Gateway::B
+Software‑defined networking such as VXLAN.::DX Gateway::Site‑to‑Site VPN::Overlay Networks::ALB Advanced Request Routing::C
+Outbound internet for private subnet instances.::NAT Gateway::Regional Edge Cache::PrivateLink::IPv6 Dual Stack::A
+Split‑horizon DNS architecture.::Route 53 Resolver::Internet Gateway::Transit Gateway::Hybrid DNS::D

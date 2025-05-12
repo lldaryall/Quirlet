@@ -1,0 +1,61 @@
+CI/CD Pipeline::Automated code integration, build, test, deployment.
+Infrastructure as Code::Manage infrastructure using version‑controlled templates/scripts.
+CloudFormation Nested Stack::Re‑usable child template for complex deployments.
+Change Sets::Preview CloudFormation modifications.
+CodePipeline Stages::Source, Build, Test, Staging, Prod.
+Blue/Green Deployment::Deploy new version alongside old; switch traffic when ready.
+Canary Deployment::Gradually shift traffic to new version.
+Rolling Deployment::Replace instances in batches.
+Elastic Beanstalk Deployment Policies::All-at-once, Rolling, Rolling w/ batch, Immutable, Blue/Green.
+CodeDeploy In‑Place::Update existing instances.
+CodeDeploy Blue/Green::Provision new instances via ASG or ECS and cut over.
+CodeBuild Phases::Install, Pre‑Build, Build, Post‑Build.
+Buildspec.yml::Instructions file for CodeBuild project.
+Artifacts::Build outputs stored in S3 or CodeBuild cache.
+CodeGuru Reviewer::Automated code review for bugs and security issues.
+CodeGuru Profiler::Production profiling and optimization recommendations.
+ECS Deployment Types::Rolling update, Blue/Green (with CodeDeploy).
+EKS Rolling Update::Kubernetes deployment strategy.
+Fargate Spot::Run ECS tasks at discounted price subject to termination.
+Pipeline as Code::Define CodePipeline via CloudFormation/CDK.
+Pipeline Cross‑Account::Use artifacts in S3 and role assumption.
+Lambda Version::Immutable snapshot of function code/config.
+Lambda Alias::Pointer to function version enabling traffic shifting.
+Step Functions Workflow::Serverless orchestrator for microservices.
+EventBridge Pipes::Point‑to‑point integration with enrichment step.
+Chaos Engineering::Inject controlled failure to test resilience.
+SageMaker Pipelines::CI/CD for ML models.
+MLOps::Practices to deploy and monitor ML in production.
+Observability::End‑to‑end visibility into system health and performance.
+CloudWatch ServiceLens::Integrates metrics, logs, and X‑Ray traces.
+Distributed Tracing::Follow requests across microservices (X‑Ray).
+OpenTelemetry::Open standard for telemetry data.
+Karpenter::Open‑source cluster autoscaler for EKS.
+AWS Proton::Automates deployment of microservice templates.
+Sustainability Pillar::Optimize environmental impact of workloads.
+Security in Pipelines::Least‑privilege roles, Secrets Manager, artifact encryption.
+Artifact Signing::Use CodeSign to sign code for integrity.
+Automated Rollback::Trigger pipeline failure based on CloudWatch alarms.
+Immutable Infrastructure::Deploy new resources instead of mutating existing.
+Version Control Tags::Label release versions.
+GitFlow::Branching model for releases.
+Monorepo vs Polyrepo::Single repository vs many per service.
+Quality Gates::Automatic blocks for test coverage or vulnerabilities.
+Unit Testing::Quick validation of code correctness.
+Integration Testing::Test interaction among modules/services.
+Load Testing::Simulate traffic to gauge performance.
+Synthetics Canary::CloudWatch Synthetics monitors end‑to‑end.
+Fault Injection Simulator::AWS service for chaos experiments.
+Cost Allocation::Tag pipelines and builds for spending visibility.
+Security Hub DevOps::Integrate pipeline findings.
+GuardDuty Alerts::Automated remediation via Lambda.
+Incident Manager Runbook::Standard operating procedures for events.
+AWS Well‑Architected DevOps Lens::Guidance for DevOps practice.
+Elastic Beanstalk Platform Hooks::Run scripts during deployment lifecycle.
+Patch Operations::SSM Patch Manager schedule.
+Drift Detection::Ensure stacks match templates.
+CFN Guard::Policy as code to validate templates.
+Synthetic Monitoring::Periodically run scripted flows to detect issues.
+Feature Flags::AppConfig toggles new features without redeploy.
+Deployment Rings::Release to internal users before external.
+Service Quotas::Track and request limit increases via API.

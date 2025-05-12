@@ -1,0 +1,102 @@
+Pause instance launch/terminate to run custom actions.::EC2 Reserved Instances::AWS Budgets::Elastic IP::Auto Scaling Lifecycle Hook::D
+DR pattern where minimal core services run in second region.::AWS Backup::Pilot Light::Parameter Store::EC2 Savings Plans::B
+Multi‑region, multi‑active database replication.::S3 Pre‑Signed URL::ECS::NAT Gateway::DynamoDB Global Table::D
+Query data sources like JDBC, DynamoDB via Lambda connector.::Security Group::AWS Backup::Athena Federated Query::WAF::C
+In‑memory cache/service for microsecond latency data access.::ElastiCache Redis::CDK::EventBridge::Service Catalog::A
+Container orchestration for Docker containers on EC2 or Fargate.::Application Load Balancer::Read Replicas::DynamoDB Global Table::ECS::D
+Dedicated private network link to AWS.::AWS Backup::Direct Connect::NAT Gateway::EC2 Auto Scaling Group::B
+Static public IPv4 address reachable via the internet.::Trusted Advisor::EB Customer‑Managed Encryption::Amazon S3 Durability::Elastic IP::D
+Catalog of approved products managed under IT governance.::Service Catalog::High Availability::Parameter Store::Scalability::A
+Petabyte‑scale data transfer and edge computing device.::Config::Cost Explorer::AWS Snowball Edge::AWS Outposts::C
+Restrict access to multiple resources for auth users.::Aurora Global Database::Private Subnet::EventBridge::CloudFront Signed Cookies::D
+Expose service endpoints privately within consumer VPCs.::Elastic Load Balancer::Service Catalog::PrivateLink::Elastic File System::C
+Primary DB synchronously replicates to standby in another AZ for automatic failover.::EKS::Elasticity::AWS Snowball Edge::Multi‑AZ RDS::D
+Tracks configuration changes of AWS resources.::Route 53 Health Checks::CloudFront Signed Cookies::ElastiCache Redis::Config::D
+Recovery metrics for disaster recovery strategies.::High Availability::RTO/RPO::Service Catalog::EB Customer‑Managed Encryption::B
+First‑In‑First‑Out queues ensuring ordered message processing.::Security Hub::RDS Backups::AWS Global Accelerator::SQS FIFO::D
+Layer‑7 load balancer for HTTP/HTTPS with path‑based routing.::Application Load Balancer::RDS Backups::PrivateLink::EventBridge::A
+Provides recommendations for cost, security, performance, limits, and sustainability.::Trusted Advisor::Placement Group::ElastiCache Memcached::S3 Cross‑Region Replication::A
+Serverless compute engine for containers.::CloudEndure Migration::AWS Outposts::Security Hub::Fargate::D
+Automatically increase or decrease resources to match demand.::Elasticity::Security Group::Elastic Load Balancer::Application Load Balancer::A
+Simple in‑memory cache, excellent for horizontal scaling.::NAT Gateway::ElastiCache Memcached::CloudFront Origin Access Control::CDK::B
+Logical grouping of instances for low latency or high throughput (Cluster, Spread, Partition).::Parameter Store::Placement Group::Route 53 Health Checks::NAT Gateway::B
+Elastic Beanstalk environments using KMS keys.::EB Customer‑Managed Encryption::CloudFront Origin Access Control::Well‑Architected Tool::S3 Access Point::A
+Capability to handle growth by adding resources automatically or manually.::Scalability::Fargate::AWS Snowball Edge::Route 53 Health Checks::A
+Identifies resources shared with external principals.::CloudFront Cache Policy::IAM Access Analyzer::Amazon Cognito::Spot Instances::B
+User sign‑up, sign‑in, and access control for web/mobile apps.::S3 Pre‑Signed URL::EB Customer‑Managed Encryption::Amazon Cognito::Route 53 Health Checks::C
+Shared NFS storage that grows/shrinks automatically.::Elastic File System::Well‑Architected Tool::Auto Scaling Lifecycle Hook::Application Load Balancer::A
+Secure key‑value store within AWS Systems Manager.::Parameter Store::Fargate::EventBridge::Well‑Architected Tool::A
+Bring AWS infrastructure and services on‑premises.::AWS Outposts::S3 Pre‑Signed URL::AWS Nitro System::VPC Endpoints Types::A
+Migrate relational or NoSQL databases with minimal downtime.::Private Subnet::CloudFormation::EC2 Reserved Instances::Database Migration Service::D
+Stateless firewall at the subnet level.::CloudFront Signed Cookies::Network ACL::Trusted Advisor::Launch Template::B
+Simplifies managing data access at scale.::ECS::Multi‑Region Active‑Active::S3 Access Point::CloudFront Cache Policy::C
+Serverless orchestration of multi‑step workflows.::Private Subnet::CloudTrail::Gateway Load Balancer::Step Functions::D
+Combining on‑premises DNS with Route 53 Resolver inbound/outbound endpoints.::Hybrid DNS::Route 53 Health Checks::Network Load Balancer::Inspector::A
+Layer‑7 firewall protecting web apps from OWASP threats.::WAF::SQS FIFO::Amazon Cognito::S3 Pre‑Signed URL::A
+Define infrastructure in code using Python, TypeScript, Java, etc.::CloudWatch Logs::CDK::Trusted Advisor::Public Subnet::B
+Automatic asynchronous copy of objects to another bucket in a different region.::S3 Cross‑Region Replication::AWS Storage Gateway::Hybrid DNS::SQS FIFO::A
+Managed Kubernetes control plane.::EKS::Amazon S3 Durability::CloudFront Origin Access Control::GuardDuty::A
+Live traffic served from multiple regions simultaneously.::Security Hub::CloudTrail Organization Trail::Multi‑Region Active‑Active::EB Customer‑Managed Encryption::C
+Distributes traffic across multiple targets to improve availability.::Elastic Load Balancer::S3 Access Point::Security Group::AWS Snowball Edge::A
+Ability of a workload to continue operating despite failures.::Parameter Store::Elastic Beanstalk::CloudFormation::Fault Tolerance::D
+Aggregate events from all accounts in org.::Elastic File System::Private Subnet::S3 Lifecycle Rules::CloudTrail Organization Trail::D
+Analyze AWS cost and usage patterns.::Config::Cost Explorer::Shield Advanced::CloudFront Cache Policy::B
+Continuous vulnerability scanning of EC2 and ECR.::EC2 Savings Plans::S3 Transfer Acceleration::Network ACL::Inspector::D
+Private IPv4 address range assigned to a VPC.::Route 53 Health Checks::VPC CIDR::VPC Peering::VPC Endpoints Types::B
+One‑year or three‑year commitment for capacity reservation and discount.::KMS CMK::Elasticity::EC2 Reserved Instances::Fargate::C
+Intelligent threat detection using AI & anomaly detection.::GuardDuty::Elastic File System::Step Functions::PrivateLink::A
+Cross‑region replication with <1 s lag and fast failover.::Aurora Global Database::CloudWatch Alarm Action::Security Group::ECS::A
+Interface and Gateway endpoints for private service connectivity.::VPC Endpoints Types::AWS Budgets::Read Replicas::VPC CIDR::A
+Infrastructure as code using declarative templates.::CloudFormation::Service‑Linked Role::Amazon MQ::EC2 Reserved Instances::A
+(Now AWS Application Migration Service) replicates servers into AWS.::Read Replicas::CloudEndure Migration::Gateway Load Balancer::Fault Tolerance::B
+Direct one‑to‑one private connectivity between two VPCs.::Elasticity::Elastic Network Interface::VPC Peering::Parameter Store::C
+Versioned blueprint for EC2 instance parameters used by ASG.::Read Replicas::Launch Template::EventBridge::Fault Tolerance::B
+Aggregates security alerts and compliance findings.::Security Hub::Athena Federated Query::Placement Group::VPC CIDR::A
+Best‑practice guide with pillars: Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization, Sustainability.::Well‑Architected Framework::EC2 Auto Scaling Group::KMS CMK::CloudTrail::A
+PaaS that handles deployment, scaling, monitoring of web apps.::CloudFront Signed Cookies::Elastic IP::Elastic Beanstalk::S3 Pre‑Signed URL::C
+Stateful virtual firewall at the instance ENI.::Security Group::CDK::Service‑Linked Role::Public Subnet::A
+Self‑service review tool for workloads.::EC2 Auto Scaling Group::Well‑Architected Tool::CloudFront Origin Shield::AWS Global Accelerator::B
+Triggers Lambda, SNS, or SQS on object events.::EKS::S3 Access Point::S3 Event Notification::S3 Cross‑Region Replication::C
+Stores logs, enables metric filters and insights.::Elastic File System::CloudWatch Logs::High Availability::EC2 Savings Plans::B
+Records API calls, events, and account activity.::Transit Gateway::AWS Nitro System::CloudTrail Organization Trail::CloudTrail::D
+Up to 90% discount for interruptible workloads.::Spot Instances::ElastiCache Redis::Trusted Advisor::Secrets Manager::A
+Percentage of eligible spend covered by Savings Plans.::EventBridge::Elastic Load Balancer::High Availability::Savings Plans Coverage::D
+Managed encryption key stored in AWS Key Management Service.::KMS CMK::S3 Lifecycle Rules::S3 Transfer Acceleration::EC2 Savings Plans::A
+Managed service giving private subnets outbound internet access.::S3 Transfer Acceleration::Parameter Store::NAT Gateway::Well‑Architected Framework::C
+Time‑limited URL that grants temporary access to a private object.::Application Load Balancer::Elastic File System::EC2 Auto Scaling Group::S3 Pre‑Signed URL::D
+Preventive/detective controls using SCPs and Config Rules.::Tagging Strategy::Control Tower Guardrails::Service Catalog::Launch Template::B
+Fully managed shared file storage built on NetApp tech.::VPC Endpoints Types::VPC Peering::AWS Backup::FSx for NetApp ONTAP::D
+Scaled‑down full environment always running in second region.::Warm Standby::ElastiCache Redis::Launch Template::CloudFront Signed Cookies::A
+Asynchronous replication to scale read traffic for RDS/Aurora.::Read Replicas::Application Load Balancer::ElastiCache Memcached::SQS FIFO::A
+High‑throughput pub/sub push notifications.::Aurora Global Database::DynamoDB Global Table::SNS Topic::NAT Gateway::C
+Adds a centralized cache layer to reduce origin load.::CloudFront Origin Shield::Public Subnet::Tagging Strategy::Multi‑AZ RDS::A
+Event bus for SaaS, AWS, custom app events.::Route 53 Routing Policies::VPC CIDR::EventBridge::AWS Global Accelerator::C
+Transition or expire objects based on age or versions.::Amazon Cognito::SQS FIFO::S3 Lifecycle Rules::Parameter Store::C
+Controls cache key and TTL behavior.::EKS::CloudFront Cache Policy::CDK::Security Hub::B
+Designed for 99.999999999% durability (11 nines) of objects.::Amazon S3 Durability::Secrets Manager::FSx for NetApp ONTAP::Database Migration Service::A
+Consistent resource metadata enabling automation and cost allocation.::Tagging Strategy::CloudFormation::Hybrid DNS::RTO/RPO::A
+Automatically adds or removes EC2 instances behind a load balancer.::EC2 Auto Scaling Group::Service Catalog::CloudFront Origin Shield::Direct Connect::A
+Anycast IP addresses that improve global application availability and performance.::FSx for NetApp ONTAP::Scalability::Control Tower Guardrails::AWS Global Accelerator::D
+Hardware and software foundation delivering enhanced security and performance for EC2.::Database Migration Service::S3 Pre‑Signed URL::Amazon Cognito::AWS Nitro System::D
+IAM role pre‑defined by AWS service with minimal permissions.::ElastiCache Memcached::Service‑Linked Role::Network ACL::Cost Explorer::B
+Managed message broker for Apache ActiveMQ/RabbitMQ.::S3 Pre‑Signed URL::Amazon MQ::GuardDuty::ECS::B
+Hybrid storage virtual appliance: File, Volume, Tape gateways.::AWS Backup::AWS Storage Gateway::S3 Lifecycle Rules::Parameter Store::B
+Layer‑4 load balancer for ultra‑low latency, static IP.::AWS Nitro System::Network Load Balancer::CloudFront Origin Access Control::Aurora Global Database::B
+Set and track cost/usage/RI/SP coverage budgets.::Elastic Load Balancer::S3 Cross‑Region Replication::Shield Advanced::AWS Budgets::D
+Subnet with route to Internet Gateway.::GuardDuty::Public Subnet::Direct Connect::Step Functions::B
+Flexible compute savings across instance families and regions.::ElastiCache Redis::EC2 Savings Plans::Savings Plans Coverage::Application Load Balancer::B
+High‑performance file system integrated with S3.::Transit Gateway::Route 53 Health Checks::FSx for Lustre::EC2 Savings Plans::C
+Speeds up uploads using the CloudFront edge network.::S3 Cross‑Region Replication::DynamoDB Global Table::Warm Standby::S3 Transfer Acceleration::D
+Handles third‑party virtual appliances and preserves client IP.::Multi‑Region Active‑Active::EB Customer‑Managed Encryption::Security Hub::Gateway Load Balancer::D
+Subnet without direct internet route; can reach internet via NAT.::Private Subnet::S3 Event Notification::Security Hub::Security Group::A
+Enhanced DDoS protection with cost‑protection.::Shield Advanced::Hybrid DNS::Network Load Balancer::Elastic File System::A
+Central hub to connect multiple VPCs and on‑prem networks.::VPC Peering::AWS Outposts::Transit Gateway::Elastic Load Balancer::C
+Monitors endpoint health and integrates with DNS failover.::CloudTrail::Tagging Strategy::Route 53 Health Checks::Transit Gateway::C
+Simple, Failover, Geolocation, Geoproximity, Latency, Multivalue, Weighted.::AWS Storage Gateway::Elastic Network Interface::Route 53 Routing Policies::CDK::C
+System design to minimize downtime using multiple AZs or Regions.::High Availability::Elastic IP::Parameter Store::Savings Plans Coverage::A
+Rotates, manages, and retrieves database/API secrets.::CloudWatch Logs::Control Tower Guardrails::Secrets Manager::NAT Gateway::C
+Automated backups and manual snapshots for point‑in‑time recovery.::Elastic File System::AWS Storage Gateway::RDS Backups::AWS Outposts::C
+Centralized, policy‑based backup across AWS services.::AWS Backup::FSx for Lustre::CDK::Amazon MQ::A
+Auto Scale, SNS, or EC2 action on threshold breach.::AWS Global Accelerator::Read Replicas::Fault Tolerance::CloudWatch Alarm Action::D
+Virtual network interface that can be attached to an EC2 instance.::Fargate::S3 Event Notification::ElastiCache Memcached::Elastic Network Interface::D
+Restricts S3 bucket access to CloudFront only.::Application Load Balancer::CloudFront Origin Access Control::Cost Explorer::NAT Gateway::B
