@@ -20,7 +20,11 @@ sudo apt update && sudo apt install build-essential
 xcode-select --install
 
 2. **Compile**
+# build
+g++ -std=c++17 -O2 src/*.cpp -o quirlet
 
-g++ -std=c++11 quirlet.cpp -o quirlet
-# or simply:
-make            # if a Makefile is present
+# or use the pre‑built binary
+./build/quirlet.exe
+
+# run
+./quirlet           # interactive menu
